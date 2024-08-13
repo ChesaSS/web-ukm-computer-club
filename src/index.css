@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* untuk navbar link */
+    .NavbarLink {
+      @apply text-black hover:text-primary ease-in-out duration-75 transition-all;
+    }
+}
