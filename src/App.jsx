@@ -4,6 +4,7 @@ import WebPage from './pages/divisi/WebPage';
 import GamePage from './pages/divisi/GamePage';
 import VcdPage from './pages/divisi/VcdPage';
 import OfficePage from './pages/divisi/OfficePage';
+import FungsioPage from './pages/fungsionaris/FungsioPage';
 import 'flowbite/dist/flowbite.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Route path="/game" element={<GamePage />} />
     <Route path="/vcd" element={<VcdPage />} />
     <Route path="/office" element={<OfficePage />} />
+    <Route path="/fungsio" element={<FungsioPage />} />
   </Routes>
   )
 }

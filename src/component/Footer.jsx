@@ -3,7 +3,7 @@ function Footer(){
     return (
         
 
-<footer className="bg-hitam relative z-50">
+<footer className="bg-hitam relative z-40">
     <div className="mx-auto w-navfot p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 md:w-[45%] flex flex-col justify-center me-5">

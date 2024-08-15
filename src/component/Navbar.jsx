@@ -34,19 +34,19 @@ function Navbar(){
                 <div className="menu hidden w-full md:block md:w-auto" id="menu">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                         <li className='m-1 p-1'>
-                            <a href="#beranda" className="NavbarLink" aria-current="page">Beranda</a>
+                            <a href="/#beranda" className="NavbarLink" aria-current="page">Beranda</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="#tentang" className="NavbarLink">Tentang Kami</a>
+                            <a href="/#tentang" className="NavbarLink">Tentang Kami</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="#divisi" className="NavbarLink">Divisi</a>
+                            <a href="/#divisi" className="NavbarLink">Divisi</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="#proker" className="NavbarLink">Program Kerja</a>
+                            <a href="/#proker" className="NavbarLink">Program Kerja</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="#fungsio" className="NavbarLink">Fungsionaris</a>
+                            <a href="/#fungsio" className="NavbarLink">Fungsionaris</a>
                         </li>
                     </ul>
                 </div>
