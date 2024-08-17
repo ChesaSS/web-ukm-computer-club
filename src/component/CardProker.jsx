@@ -16,7 +16,7 @@ function CardProker(props) {
 
                     <h3 className="font-semibold text-center my-3 text-lg">{divisi}</h3>
                     <p className="text-center text-sm md:w-konten mx-auto mb-5">{deskripsi}</p>
-                    <Button divClass="flex justify-center" link={href} text="Baca Selengkapnya"/>
+                    <Button divClass="flex justify-center" href={href} text="Baca Selengkapnya"/>
                 </div>
             </div>
         </div>

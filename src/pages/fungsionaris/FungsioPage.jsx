@@ -18,11 +18,7 @@ function FungsioPage(){
 
     return(
         <div className="relative">
-            <div className="absolute inset-0 -z-10"
-                style={{
-                backgroundImage: "url('../../src/assets/img/ornamen/teksture 1.png')",
-                }}>
-            </div>
+            <div className="absolute inset-0 -z-10 bg-ornamen"/>
             
             <Navbar />
 

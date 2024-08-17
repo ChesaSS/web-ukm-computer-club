@@ -14,6 +14,9 @@ export default {
       'tetiary': '#C8C8FE',
     },
     extend: {
+      backgroundImage: {
+        "ornamen": "url('/src/assets/img/ornamen/teksture 1.png')",
+      },
       width: {
         'navfot': '95%',
         'konten': '90%',

@@ -1,27 +1,14 @@
 import Button from "../component/Button";
 import Card from "../component/Card";
 import CardProker from "../component/CardProker";
-import Footer from "../component/Footer";
-import Navbar from "../component/Navbar";
 import divisiData from '../data/divisi/data';
 import prokerData from '../data/proker/data';
 import data1 from '../data/FAQ/data1';
 import data2 from '../data/FAQ/data2';
 import { useState } from 'react';
-
-
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import imagesData from "../data/imgImports";
 
 function HomePage() {
-    useEffect(() => {
-        AOS.init({
-          duration: 1000, // Durasi animasi dalam milidetik
-          once: false, // Animasi hanya dijalankan sekali saat scroll
-        });
-    }, []);
-
     const [openQuestion, setOpenQuestion] = useState(null);
 
     const toggleAnswer = (id) => {
@@ -29,24 +16,17 @@ function HomePage() {
     };
 
     return (
-        <div className="overflow-x-hidden relative">
-            <div className="absolute inset-0 -z-10"
-                style={{
-                backgroundImage: "url('../src/assets/img/ornamen/teksture 1.png')",
-                }} data-aos="fade-up">
-            </div>
-
-            <Navbar></Navbar>
+        <>
+            <div className="absolute inset-0 -z-10 bg-ornamen" data-aos="fade-up"/>
 
             <section className="relative" id="beranda">
-                
                 <div className="py-20 md:py-40 lg:py-0 lg:pt-24">
                     <div className="w-konten mx-auto relative z-10">
                         <div className="lg:flex justify-between items-center">
 
                             <div className="w-full md:w-3/4 mx-auto lg:hidden" data-aos="fade-down">
                                 <div className="w-full mb-5">
-                                    <img src="../src/assets/img/hero/bersama2.JPG" className="w-full rounded-md" alt="Foto 2"></img>
+                                    <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 2"></img>
                                 </div>
                             </div>
 
@@ -61,10 +41,10 @@ function HomePage() {
 
                             <div className="w-[35%] hidden lg:block" data-aos="fade-down">
                                 <div className="w-full my-5 ml-5">
-                                    <img src="../src/assets/img/hero/bersama.JPG" className="w-full rounded-md -rotate-3" alt="Foto 1"></img>
+                                    <img src={imagesData.bersama} className="w-full rounded-md -rotate-3" alt="Foto 1"></img>
                                 </div>
                                 <div className="w-full relative -left-12 top-3 mb-5">
-                                    <img src="../src/assets/img/hero/bersama2.JPG" className="w-full rounded-md rotate-3" alt="Foto 2"></img>
+                                    <img src={imagesData.bersama2} className="w-full rounded-md rotate-3" alt="Foto 2"></img>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +67,7 @@ function HomePage() {
 
                 <div className="w-full md:w-2/3 md:mx-auto rounded-md px-2 py-5 bg-gradient-to-t from-secondary to-[#EEEEF9]/30 relative">
                     <div className="mx-auto w-16 my-5">
-                        <img src="../src/assets/img/logo/LOGO UKM BERWARNA.png" className="w-full"></img>
+                        <img src={imagesData.LOGO_UKM_BERWARNA} className="w-full"></img>
                     </div>
 
                     <div className="my-5">
@@ -133,12 +113,12 @@ function HomePage() {
                     <div className="lg:flex lg:justify-between items-center" data-aos="zoom-in">
                         <div className="w-full lg:hidden block">
                             <div className="w-full my-5">
-                                <img src="../src/assets/img/fungsionaris/ft bersama.png" className="w-full rounded-md" alt="Foto 1"></img>
+                                <img src={imagesData.ft_bersama} className="w-full rounded-md" alt="Foto 1"></img>
                             </div>
                         </div>
 
                         <div className="w-full lg:w-[60%] p-1" data-aos="fade-up">
-                            <h1 className="uppercase text-center text-xl md:text-2xl lg:text-left lg:text-4xl font-semibold mb-2">Fungsionarsi UKM Computer Club</h1>
+                            <h1 className="uppercase text-center text-xl md:text-2xl lg:text-left lg:text-4xl font-semibold mb-2">Fungsionaris UKM Computer Club</h1>
                             <div className="mb-6 md:text-lg"> 
                                 <h3 className="lg:text-justify text-center">Yuk Kenalan dengan fungsionaris, biar nanti saat ukm dapat akrab 😁</h3> 
                             </div>
@@ -147,7 +127,7 @@ function HomePage() {
 
                         <div className="w-[46%] hidden lg:block">
                             <div className="w-full my-5 ml-5"  data-aos="fade-down">
-                                <img src="../src/assets/img/fungsionaris/ft bersama.png" className="w-full rounded-md" alt="Foto 1"></img>
+                                <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1"></img>
                             </div>
                         </div>
                     </div>
@@ -206,9 +186,7 @@ function HomePage() {
                     </p>
                 </div>
             </section>
-
-            <Footer></Footer>
-        </div>
+        </>
     );
 }
 

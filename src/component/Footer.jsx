@@ -1,3 +1,5 @@
+import imagesData from "../data/imgImports"
+
 function Footer(){
     //tampilan
     return (
@@ -9,10 +11,10 @@ function Footer(){
             <div className="mb-6 md:mb-0 md:w-[45%] flex flex-col justify-center me-5">
                 <div className="flex">
                     <div>
-                        <img src="../src/assets/img/logo/LOGO UKM PUTIH.png" className="h-12 me-3" alt="Logo UKM" />
+                        <img src={imagesData.LOGO_UKM_PUTIH} className="h-12 me-3" alt="Logo UKM" />
                     </div>
                     <div>
-                        <img src="../src/assets/img/logo/LOGO PNB.png" className="h-12 me-3" alt="Logo PNB" />
+                        <img src={imagesData.LOGO_PNB} className="h-12 me-3" alt="Logo PNB" />
                     </div>
                 </div>
 
