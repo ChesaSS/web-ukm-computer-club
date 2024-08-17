@@ -2,9 +2,12 @@ import { useNavigate, useParams } from "react-router-dom";
 import divisiData from "../../data/divisi/data";
 import Button from "../../component/Button";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Autoplay, Parallax } from 'swiper/modules';
+import {
+    StackedCarousel,
+    ResponsiveContainer,
+  } from "react-stacked-center-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CardCarousel from "../../component/CardCarousel";
 
 function DivisiPage() {
     const {divisi} = useParams();
@@ -40,42 +43,6 @@ function DivisiPage() {
                         <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto my-10">Kegiatan Divisi</h1>
                         <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{divisiDetail.deskripsiKegiatan}</p>
                     </div>
-                    <div className="w-2/4 absolute left-1/2 -translate-x-1/2">
-                        <Swiper
-                            effect={'coverflow'}
-                            autoplay={{ delay: 3000, disableOnInteraction: false}}
-                            grabCursor={true}
-                            centeredSlides={true}
-                            loop={true}
-                            slidesPerView={'auto'}
-                            parallax={true}
-                            coverflowEffect={{
-                                rotate: 0,
-                                stretch: 30,
-                                depth: 180,
-                                modifier: 6,
-                                slideShadows: true,
-                                scale: 1,
-                            }}
-                            modules={[EffectCoverflow, Autoplay, Parallax]}
-                            className="relative m-auto w-2/4 aspect-video border"
-                        >
-                        {
-                            divisiDetail.itemsKegiatan.map((item) => (
-                                <SwiperSlide key={item.id} className="w-full">
-                                    <div className="absolute bottom-0 px-4 py-4 text-white w-full rounded-xl">
-                                        <div className="absolute inset-0 from-black bg-gradient-to-t object-cover rounded-xl"/>
-                                        <h1 className="right-0 font-semibold" data-swiper-parallax="180%" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-20" data-swiper-parallax-duration="1000">{item.judul}</h1>
-                                        <p className="right-0" data-swiper-parallax="200%" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-20" data-swiper-parallax-duration="1000">{item.deskripsi}</p>
-                                    </div>
-                                    <div className="aspect-video rounded-xl">
-                                        <img src={item.gambar} alt={item.altGambar} className="aspect-video w-full rounded-xl object-cover"/>
-                                    </div>
-                                </SwiperSlide>
-                            ))
-                        }
-                        </Swiper>
-                    </div>
                 </section>
 
                 <section className="md:pt-32 relative pb-40" id="materi">
@@ -83,6 +50,10 @@ function DivisiPage() {
                         style={{
                         backgroundColor: "#1E1E1E",
                         }} >
+                    </div>
+                    {/* carousel  */}
+                    <div className="w-full absolute left-1/2 -translate-x-1/2 -top-80">
+                        <CardCarousel data={divisiDetail.itemsKegiatan}/>
                     </div>
                     <div className="text-white p-2 w-konten mx-auto" data-aos="fade-up">
                         <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">Materi Ajar</h1>
