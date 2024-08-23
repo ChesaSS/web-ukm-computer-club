@@ -11,10 +11,10 @@ function Footer(){
             <div className="mb-6 md:mb-0 md:w-[45%] flex flex-col justify-center me-5">
                 <div className="flex">
                     <div>
-                        <img src={imagesData.LOGO_UKM_PUTIH} className="h-12 me-3" alt="Logo UKM" />
+                        <img src={imagesData.LOGO_PNB} className="h-12 me-3" alt="Logo PNB" loading="lazy"/>
                     </div>
                     <div>
-                        <img src={imagesData.LOGO_PNB} className="h-12 me-3" alt="Logo PNB" />
+                        <img src={imagesData.LOGO_UKM_PUTIH} className="h-12 me-3" alt="Logo UKM" loading="lazy"/>
                     </div>
                 </div>
 
@@ -36,8 +36,11 @@ function Footer(){
                         <li className="mb-4">
                             <a href="#divisi" className="hover:underline">Divisi</a>
                         </li>
-                        <li>
+                        <li className="mb-4">
                             <a href="#proker" className="hover:underline">Program Kerja</a>
+                        </li>
+                        <li>
+                            <a href="#fungsio" className="hover:underline">Fungsionaris</a>
                         </li>
                     </ul>
                 </div>
@@ -48,9 +51,13 @@ function Footer(){
                             <i className="fa-brands fa-instagram me-2 text-lg"></i>
                             <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" className="hover:underline lg:-mt-[0.5px]" target="_blank">Instagram</a>
                         </li>
-                        <li className="flex items-center text-white">
+                        <li className="mb-4 flex items-center text-white">
                             <i className="fa-brands fa-tiktok me-2 text-lg"></i>
                             <a href="https://www.tiktok.com/@ukmcomputerclub?_t=8ohE7tbwgni&_r=1" className="hover:underline" target="_blank">Tiktok</a>
+                        </li>
+                        <li className="flex items-center text-white">
+                            <i class="fa-brands fa-youtube me-2 text-lg"></i>
+                            <a href="https://youtube.com/@ukmcomputerclub?si=58xhcjuwbTmeQcOA" className="hover:underline" target="_blank">Youtube</a>
                         </li>
                     </ul>
                 </div>
@@ -63,7 +70,7 @@ function Footer(){
                         </li>
                         <li className="flex items-center">
                             <i className="fa-brands fa-whatsapp me-2"></i>
-                            <a href="#" className="hover:underline">Sastie</a>
+                            <a href="https://wa.me/+6281335355270" className="hover:underline">Sastie</a>
                         </li>
                     </ul>
                 </div>
@@ -77,16 +84,20 @@ function Footer(){
             <span className="text-sm text-white sm:text-center">© 2024 <span>UKM Computer Club</span>.</span>
 
             <div className="flex mt-4 sm:justify-center sm:mt-0">
-                <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" target="_blank" className="text-white hover:text-gray-900">
+                <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" target="_blank" className="text-white hover:text-primary">
                     <i className="fa-brands fa-instagram text-lg"></i>
                     <span className="sr-only">Instagram page</span>
                 </a>
-                <a href="https://www.tiktok.com/@ukmcomputerclub?_t=8ohE7tbwgni&_r=1" target="_blank" className="text-white hover:text-gray-900 ms-5">
+                <a href="https://www.tiktok.com/@ukmcomputerclub?_t=8ohE7tbwgni&_r=1" target="_blank" className="text-white hover:text-primary ms-5">
                     <i className="fa-brands fa-tiktok text-lg"></i>
                     <span className="sr-only">Tiktok</span>
                 </a>
-                <a href="https://linkedin.com/company/ukm-computerclub" target="_blank" className="text-white hover:text-gray-900 ms-5">
+                <a href="https://linkedin.com/company/ukm-computerclub" target="_blank" className="text-white hover:text-primary ms-5">
                     <i className="fa-brands fa-linkedin text-lg"></i>
+                    <span className="sr-only">Linkedin</span>
+                </a>
+                <a href="https://youtube.com/@ukmcomputerclub?si=58xhcjuwbTmeQcOA" target="_blank" className="text-white hover:text-primary ms-5">
+                    <i className="fa-brands fa-youtube text-lg"></i>
                     <span className="sr-only">Linkedin</span>
                 </a>
             </div>

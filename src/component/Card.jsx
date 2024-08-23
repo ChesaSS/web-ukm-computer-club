@@ -5,8 +5,8 @@ function Card(props) {
     return(
         <div data-aos="zoom-in">
             <div className="relative md:w-[20rem] lg:w-[25rem] md:mx-5 md:my-2 hover:scale-105 transition-all">
-                <div className="w-full relative z-10">
-                    <img src={`${img}`} className="w-full rounded-ss-lg rounded-se-lg "></img>
+                <div className="w-full h-60 relative z-10">
+                    <img src={`${img}`} className="w-full rounded-ss-lg rounded-se-lg" loading="lazy"></img>
                 </div>
 
                 <div className="bg-white p-1 w-full relative rounded-lg z-20 -top-5 shadow-lg shadow-gray-300">
