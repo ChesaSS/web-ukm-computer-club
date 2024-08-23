@@ -16,30 +16,30 @@ function HomePage() {
     };
 
     return (
-        <>
-            <div className="absolute inset-0 -z-10 bg-ornamen" data-aos="fade-up"/>
+        <div>
+            <div className="absolute inset-0 -z-10 bg-ornamen"/>
 
             <section className="relative" id="beranda">
-                <div className="py-20 md:py-40 lg:py-0 lg:pt-24">
+                <div className="py-32 md:py-40 lg:py-0 lg:pt-24">
                     <div className="w-konten mx-auto relative z-10">
                         <div className="lg:flex justify-between items-center">
 
                             <div className="w-full md:w-3/4 mx-auto lg:hidden" data-aos="fade-down">
                                 <div className="w-full mb-5">
-                                    <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 2"></img>
+                                    <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 2" loading="lazy"></img>
                                 </div>
                             </div>
 
                             <div className="w-full lg:w-[70%] p-1" data-aos="fade-up">
                                 <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-2">unit kegiatan mahasiswa computer club</h1>
                                 <div className="mb-2 md:text-lg"> 
-                                    <h3 className="lg:text-justify text-center">Menyalurkan Bakat di Dunia Digital:</h3> 
-                                    <h3 className="lg:text-justify text-center">"Inspirasi Mahasiswa Teknologi di Politeknik Negeri Bali"</h3> 
+                                    <h3 className="lg:text-justify text-center">Selamat Datang didunia penuh inovasi dan kerjasama:</h3> 
+                                    <h3 className="lg:text-justify text-center">"Inspirasi Mahasiswa di Politeknik Negeri Bali"</h3> 
                                 </div>
                                 <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center">#MakeItHappen</h2>
                             </div>
 
-                            <div className="w-[35%] hidden lg:block" data-aos="fade-down">
+                            <div className="w-[35%] hidden lg:block" data-aos="zoom-in">
                                 <div className="w-full my-5 ml-5">
                                     <img src={imagesData.bersama} className="w-full rounded-md -rotate-3" alt="Foto 1"></img>
                                 </div>
@@ -63,29 +63,27 @@ function HomePage() {
             </section>
 
             <section className="pt-20 md:py-40 px-2 relative" data-aos="fade-up">
-                
-
-                <div className="w-full md:w-2/3 md:mx-auto rounded-md px-2 py-5 bg-gradient-to-t from-secondary to-[#EEEEF9]/30 relative">
-                    <div className="mx-auto w-16 my-5">
-                        <img src={imagesData.LOGO_UKM_BERWARNA} className="w-full"></img>
+                <div className="w-full md:w-2/3 md:mx-auto rounded-md px-2 py-5 bg-gradient-to-t from-secondary to-[#EEEEF9]/80 relative">
+                    <div className="mx-auto w-20 my-5">
+                        <img src={imagesData.LOGO_UKM_BERWARNA} className="w-full" loading="lazy"></img>
                     </div>
 
                     <div className="my-5">
-                        <h1 className="text-center text-xl font-semibold">Tentang UKM Computer Club</h1>
+                        <h1 className="text-center text-2xl font-semibold">Tentang UKM Computer Club</h1>
                     </div>
 
-                    <div className="w-full md:w-4/5 p-2 mx-auto text-justify">
-                        <p className="font-medium ">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.</p>
+                    <div className="w-full md:w-4/5 p-2 pb-12 mx-auto text-justify">
+                        <p className="font-medium ">Unit Kegiatan Mahasiswa Computer Club merupakan salah satu Unit Kegiatan Mahasiswa yang berada di lingkungan Politeknik Negeri Bali yang berfokus pada pengembangan keterampilan dan pengetahuan di bidang teknologi informasi. Sebagai wadah bagi mahasiswa yang memiliki minat dan bakat di bidang teknologi, UKM Computer Club berperan sebagai platform untuk mengasah pengetahuan dan keterampilan yang relevan di era digital. Dengan tujuan utama memberdayakan mahasiswa, UKM Computer Club menyediakan berbagai kesempatan bagi anggota untuk mengembangkan diri melalui berbagai program seperti pelatihan, kompetisi hingga project-project yang relevan dengan dunia digital.</p>
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 md:pt-20 relative" id="divisi">
+            <section className="py-16 md:pt-16 relative" id="divisi">
                 <div className="p-2 w-konten mx-auto" data-aos="fade-up">
                     <h1 className="text-center font-semibold text-xl md:text-2xl mt-10 mb-2">Divisi UKM Computer Club</h1>
                     <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-1/2 md:mx-auto">Ada 4 divisi di Unit Kegitan Mahasiswa Computer Club yang merupakan pendalaman lebih khusus mengenai ketertarikan dan minat para mahasiswa.</p>
 
-                    <div className="flex justify-center items-center flex-wrap lg:w-3/4 mx-auto">
+                    <div className="flex justify-center items-stretch flex-wrap lg:w-3/4 mx-auto">
                         {divisiData.map((Data) =>(
                             <Card key={Data.id} img={Data.img} divisi ={Data.divisi} deskripsi={Data.deskripsi} href={Data.href}
                             />
@@ -97,9 +95,9 @@ function HomePage() {
             <section className="md:pt-20 realtive" id="proker">
                 <div className="p-2" data-aos="fade-up">
                     <h1 className="text-center font-semibold text-xl md:text-2xl mt-10 mb-2">Program Kerja</h1>
-                    <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Ada 3 program kerja di Unit Kegitan Mahasiswa Computer Club yang bergerak dalam bidang it.</p>
+                    <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Ada 3 program kerja di Unit Kegitan Mahasiswa Computer Club yang bergerak dalam bidang IT.</p>
 
-                    <div className="flex justify-center items-center mx-auto flex-wrap">
+                    <div className="flex p-2 justify-center items-stretch mx-auto flex-wrap">
                         {prokerData.map((Data) =>(
                             <CardProker key={Data.id} logo={Data.logo} img={Data.img} divisi ={Data.name} deskripsi={Data.deskripsi} href={Data.href}
                             />
@@ -113,21 +111,21 @@ function HomePage() {
                     <div className="lg:flex lg:justify-between items-center" data-aos="zoom-in">
                         <div className="w-full lg:hidden block">
                             <div className="w-full my-5">
-                                <img src={imagesData.ft_bersama} className="w-full rounded-md" alt="Foto 1"></img>
+                                <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1" loading="lazy"></img>
                             </div>
                         </div>
 
                         <div className="w-full lg:w-[60%] p-1" data-aos="fade-up">
                             <h1 className="uppercase text-center text-xl md:text-2xl lg:text-left lg:text-4xl font-semibold mb-2">Fungsionaris UKM Computer Club</h1>
                             <div className="mb-6 md:text-lg"> 
-                                <h3 className="lg:text-justify text-center">Yuk Kenalan dengan fungsionaris, biar nanti saat ukm dapat akrab 😁</h3> 
+                                <h3 className="lg:text-justify text-center">Yuk kenalan dengan fungsionaris kami 😁</h3> 
                             </div>
-                            <Button divClass="flex justify-center lg:inline" href="/fungsio" text="Lihat Selengkapnya"></Button>
+                            <Button divClass="flex justify-center lg:inline" href="/fungsionaris" text="Lihat Selengkapnya"></Button>
                         </div>
 
                         <div className="w-[46%] hidden lg:block">
-                            <div className="w-full my-5 ml-5"  data-aos="fade-down">
-                                <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1"></img>
+                            <div className="w-full my-5 ml-5"  data-aos="zoom-in">
+                                <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -148,14 +146,14 @@ function HomePage() {
                             {data1.map((Data) => (
                                 <div key={Data.id} className="transition-all m-3 duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
                                     <button type="button" className="flex items-center justify-between w-full px-4 py-5 sm:p-6" onClick={() => toggleAnswer(Data.id)}>
-                                        <span className="flex text-sm lg:text-lg font-semibold text-black text-left">{Data.question}</span>
+                                        <span className="flex text-sm lg:text-base font-semibold text-black text-left w-[28rem]">{Data.question}</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={`w-6 h-6 text-gray-400 transition-transform duration-200 ${openQuestion === Data.id ? 'rotate-0' : 'rotate-180'}`}>
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                                         </svg>
                                     </button>
     
                                      <div className={`px-4 pb-5 sm:px-6 sm:pb-6 ${openQuestion === Data.id ? 'block' : 'hidden'}`}>
-                                         <p>{Data.answer}</p>
+                                        <div className="text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: Data.answer }} />
                                     </div>
                                 </div>
                             ))}
@@ -165,14 +163,14 @@ function HomePage() {
                             {data2.map((Data) => (
                                 <div key={Data.id} className="transition-all m-3 duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
                                     <button type="button" className="flex items-center justify-between w-full px-4 py-5 sm:p-6" onClick={() => toggleAnswer(Data.id)}>
-                                        <span className="flex text-sm lg:text-lg font-semibold text-black text-left">{Data.question}</span>
+                                        <span className="flex text-sm lg:text-base font-semibold text-black text-left w-[28rem]">{Data.question}</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={`w-6 h-6 text-gray-400 transition-transform duration-200 ${openQuestion === Data.id ? 'rotate-0' : 'rotate-180'}`}>
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                                         </svg>
                                     </button>
     
                                     <div className={`px-4 pb-5 sm:px-6 sm:pb-6 ${openQuestion === Data.id ? 'block' : 'hidden'}`}>
-                                        <p>{Data.answer}</p>
+                                        <div className="text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: Data.answer }} />
                                     </div>
                                 </div>
                             ))}
@@ -181,12 +179,12 @@ function HomePage() {
     
     
                     <p className="text-center text-gray-600 textbase mt-9">
-                        Punya Pertanyaan lainya? Bisa Sampaikan pada 
-                        <span className="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary hover-underline"> <a href="#">Instagram Kami</a> </span>
+                        Punya pertanyaan lainya? Bisa sampaikan pada 
+                        <span className="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary hover-underline"> <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" className="hover:underline" target="_blank">Instagram Kami</a> </span>
                     </p>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 

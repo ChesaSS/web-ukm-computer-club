@@ -1,33 +1,43 @@
 const data1 = [
     {
+        id: 15,
+        question: 'Bagaimana cara bergabung dengan UKM Computer Club?',
+        answer: 'Untuk bergabung, Anda dapat mengikuti prosedur pendaftaran yang diumumkan oleh panitia PKKMB. Pastikan untuk mengikuti panduan pendaftaran yang diumumkan tepat waktu dan sesuai kriteria.',
+    },
+    {
         id: 1,
-        question: 'How can I get started?',
-        answer: 'Getting started is easy! Sign up for an account, and you\'ll have access to our platform\'s features. No credit card required for the initial signup.',
+        question: 'Kapan hari pertemuan klub ini diadakan?',
+        answer: 'Setiap pertemuan diadakan pada hari Minggu',
     },
     {
         id: 2,
-        question: 'What is the pricing structure?',
-        answer: 'Our pricing structure is flexible. We offer both free and paid plans. You can choose the one that suits your needs and budget.',
+        question: 'Apakah ada sarana komunikasi untuk anggota klub?',
+        answer: 'Ya, kami menggunakan grup WhatsApp sebagai sarana komunikasi utama antara anggota klub. Ini akan memudahkan informasi terbaru, pengumuman, dan koordinasi kegiatan',
     },
     {
         id: 3,
-        question: 'What kind of support do you provide?',
-        answer: 'We offer comprehensive customer support. You can reach out to our support team through various channels, including email, chat, and a knowledge base.',
+        question: 'Apakah ada persyaratan khusus untuk bergabung dengan UKM Computer Club?',
+        answer: 'Umumnya, tidak ada persyaratan khusus yang rumit. Semua mahasiswa yang memiliki minat dalam teknologi, desain, atau pengembangan permainan dapat bergabung dengan UKM Computer Club.',
     },
     {
         id: 4,
-        question: 'Can I cancel my subscription anytime?',
-        answer: 'Yes, you can cancel your subscription at any time without any hidden fees. We believe in providing a hassle-free experience for our users.',
+        question: 'Apakah saya harus ahli dalam penggunaan komputer untuk bergabung?',
+        answer: 'Tidak, tidak perlu menjadi ahli dalam penggunaan komputer. Klub ini terbuka untuk semua tingkat keahlian, baik pemula maupun mahir. Kami mendorong semua anggota untuk belajar bersama.',
     },
     {
         id: 5,
-        question: 'Can I cancel my subscription anytime?',
-        answer: 'Yes, you can cancel your subscription at any time without any hidden fees. We believe in providing a hassle-free experience for our users.',
+        question: 'Untuk sarana pendukung kegiatan apa saja yang harus disiapkan ya kak?',
+        answer: 'Untuk sarana pendukung saat kegiatan adalah laptop dan jika ada keperluan yang lain nanti pasti akan diinformasikan.',
     },
     {
         id: 6,
-        question: 'Can I cancel my subscription anytime?',
-        answer: 'Yes, you can cancel your subscription at any time without any hidden fees. We believe in providing a hassle-free experience for our users.',
+        question: 'Tetapi saya belum punya laptop kak, berarti saya tidak bisa masuk UKM itu ya?',
+        answer: 'Kami mendorong setiap anggota untuk mulai mempersiapkan laptop pribadi untuk digunakan dalam pertemuan dan kegiatan divisi. Karena Setiap divisi akan memanfaatkan laptop untuk keperluan seperti pengembangan perangkat lunak dan berbagai tugas lainnya yang mendukung proyek di masing-masing divisi.'
+    },
+    {
+        id: 7,
+        question: 'Apakah untuk gabung perlu wawancara lagi?',
+        answer: 'Untuk gabung sebagai anggota tidak ada proses wawancara lagi ya.',
     },
 ];
 
