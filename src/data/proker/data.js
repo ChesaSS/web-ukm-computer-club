@@ -198,7 +198,7 @@ const prokerData = [
             },
             {
                 icon: faBookmark,
-                text: "Seminar Game",
+                text: "Seminar Game (Beyond Limits)",
             },
         ],
         facts: [

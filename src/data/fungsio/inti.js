@@ -35,9 +35,9 @@ const intiData = [
         id: 5,  
         img: "../../src/assets/img/fungsionaris/perorang/INTI/Listya.png", 
         nama: "Listya",
-        ig: "none",
-        link: "none",
-        moto: "Lorem ipsum dolor sit amet consectetur. Arcu platea sagittis lacus a consequat aenean ac eget tellus",
+        ig: "listyanatallia",
+        link: "https://www.instagram.com/listyanatallia?igsh=MW5kb2Vhc2lxM29jag%3D%3D&utm_source=qr",
+        moto: "Be better, soon!✨",
     },
     {
         id: 6,  
