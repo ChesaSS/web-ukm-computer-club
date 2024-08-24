@@ -55,6 +55,6 @@
 @layer components {
     /* untuk navbar link */
     .NavbarLink {
-      @apply text-black hover:text-primary ease-in-out duration-75 transition-all;
+      @apply hover:text-primary ease-in-out duration-75 transition-all;
     }
 }

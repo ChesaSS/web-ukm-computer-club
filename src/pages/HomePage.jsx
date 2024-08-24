@@ -34,7 +34,7 @@ function HomePage() {
                                 <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-2">unit kegiatan mahasiswa computer club</h1>
                                 <div className="mb-2 md:text-lg"> 
                                     <h3 className="lg:text-justify text-center">Selamat Datang didunia penuh inovasi dan kerjasama:</h3> 
-                                    <h3 className="lg:text-justify text-center">"Inspirasi Mahasiswa di Politeknik Negeri Bali"</h3> 
+                                    <h3 className="lg:text-justify text-center">{`${"Inspirasi Mahasiswa di Politeknik Negeri Bali"}`}</h3> 
                                 </div>
                                 <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center">#MakeItHappen</h2>
                             </div>

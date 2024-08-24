@@ -56,7 +56,7 @@ function Footer(){
                             <a href="https://www.tiktok.com/@ukmcomputerclub?_t=8ohE7tbwgni&_r=1" className="hover:underline" target="_blank">Tiktok</a>
                         </li>
                         <li className="flex items-center text-white">
-                            <i class="fa-brands fa-youtube me-2 text-lg"></i>
+                            <i className="fa-brands fa-youtube me-2 text-lg"></i>
                             <a href="https://youtube.com/@ukmcomputerclub?si=58xhcjuwbTmeQcOA" className="hover:underline" target="_blank">Youtube</a>
                         </li>
                     </ul>
