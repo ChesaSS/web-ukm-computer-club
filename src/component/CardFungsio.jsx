@@ -19,7 +19,7 @@ function CardFungsio(props){
                             <i className="fa-brands fa-instagram mx-2"></i> 
                             <a href={link} className="hover:underline" target="_blank">{ig}</a>
                         </div>
-                        <p className="text-center w-full text-sm">"{kata}"</p>
+                        <p className="text-center w-full text-sm">{`"${kata}"`}</p>
                     </div>
                 </div>
             </div>

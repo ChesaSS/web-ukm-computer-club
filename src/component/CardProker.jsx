@@ -25,6 +25,6 @@ function CardProker(props) {
             </div>
         </div>
     );
-};
+}
 
 export default CardProker

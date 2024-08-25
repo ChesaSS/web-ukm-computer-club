@@ -56,6 +56,6 @@ function CardCarousel ({data}) {
             }}
         />
     );
-};
+}
 
 export default CardCarousel;

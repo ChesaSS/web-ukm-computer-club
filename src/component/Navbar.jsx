@@ -1,7 +1,19 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import imagesDatas from '../data/imgImports';
+import { useLocation } from 'react-router-dom';
 
 function Navbar(){
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+        const element = document.getElementById(hash.replace('#', ''));
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        }
+    }, [hash]);
+    
     //native
     useEffect(() => {
         const toggleButton = document.querySelector('.toggle-btn');

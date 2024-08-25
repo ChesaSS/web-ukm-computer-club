@@ -2,10 +2,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import divisiData from "../../data/divisi/data";
 import Button from "../../component/Button";
 
-import {
-    StackedCarousel,
-    ResponsiveContainer,
-  } from "react-stacked-center-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CardCarousel from "../../component/CardCarousel";
 
@@ -18,7 +14,7 @@ function DivisiPage() {
             <div>
                 <div className="absolute inset-0 -z-20 bg-ornamen"/>
 
-                <section className="py-8 md:pb-20 relative h-screen">
+                <section className="py-8 md:pb-20 relative 2xl:h-screen">
                     <div className="relative">
                         <div className="absolute inset-0 -z-10 from-black bg-gradient-to-r w-screen h-screen rounded-bl-[1rem] lg:rounded-bl-[3rem] rounded-br-[1rem] lg:rounded-br-[3rem]"/>
                         <img src={divisiDetail.imgCover} className="w-full h-full object-cover absolute inset-0 -z-20 rounded-bl-[1rem] lg:rounded-bl-[3rem] rounded-br-[1rem] lg:rounded-br-[3rem]" loading="lazy"/>
@@ -39,14 +35,14 @@ function DivisiPage() {
                     </div>
                 </section>
 
-                <section className="pt-20 relative h-screen">
+                <section className="pt-20 relative mb-80">
                     <div className="p-2 w-konten mx-auto" data-aos="fade-up">
                         <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto my-5 lg:my-10">Kegiatan Divisi</h1>
                         <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{divisiDetail.deskripsiKegiatan}</p>
                     </div>
                 </section>
 
-                <section className="md:pt-32 -pt-30 relative pb-40" id="materi">
+                <section className="md:pt-32 -pt-32 relative pb-40" id="materi">
                     <div className="absolute inset-0 -z-10 lg:-top-40 -top-60 rounded-tl-[1rem] rounded-tr-[1rem] lg:rounded-tl-[3rem] lg:rounded-tr-[3rem]"
                         style={{
                         backgroundColor: "#1E1E1E",
@@ -58,7 +54,7 @@ function DivisiPage() {
                     </div>
                     <div className="text-white p-2 w-konten mx-auto" data-aos="fade-up">
                         <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">Materi Ajar</h1>
-                        <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{divisiDetail.deskripsiMateri}</p>
+                        <p className="text-center font-normal text-sm md:text-base mb-10 w-full lg:w-3/5 md:mx-auto">{divisiDetail.deskripsiMateri}</p>
                     </div>
                     <div className="text-white p-2 w-konten lg:w-3/4 mx-auto flex flex-col">
                         {

@@ -1,5 +1,4 @@
 import Navbar from "../../component/Navbar";
-import Footer from "../../component/Footer";
 import CardFungsio from "../../component/CardFungsio";
 import intiData from '../../data/fungsio/inti';
 import WebData from '../../data/fungsio/web';
@@ -7,18 +6,7 @@ import OfficeData from '../../data/fungsio/office';
 import GameData from '../../data/fungsio/game';
 import VcdData from '../../data/fungsio/vcd';
 
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 function FungsioPage(){
-    useEffect(() => {
-        AOS.init({
-          duration: 1000, // Durasi animasi dalam milidetik
-          once: false, // Animasi hanya dijalankan sekali saat scroll
-        });
-    }, []);
-
     return(
         <div className="relative">
             <div className="absolute inset-0 -z-10 bg-ornamen"/>
