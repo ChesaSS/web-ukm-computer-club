@@ -69,6 +69,45 @@ import _intech_foto_dokum8 from '../../src/assets/img/proker/intech/dokumen8.jpg
 import _intech_foto_dokum9 from '../../src/assets/img/proker/intech/dokumen9.jpg'
 import _test from '../../src/assets/img/test.png'
 
+// fungsionaris
+import _ayudiah from "../../src/assets/img/fungsionaris/perorang/INTI/Diah.png"
+import _mariani from "../../src/assets/img/fungsionaris/perorang/INTI/Mariani.png"
+import _sastie from "../../src/assets/img/fungsionaris/perorang/INTI/Shastie.png"
+import _artani from "../../src/assets/img/fungsionaris/perorang/INTI/Artani.png"
+import _listya from "../../src/assets/img/fungsionaris/perorang/INTI/Listya.png"
+import _chirstina from "../../src/assets/img/fungsionaris/perorang/INTI/Cristina.png"
+
+import _tasya from "../../src/assets/img/fungsionaris/perorang/Game/Tasya.png"
+import _okris from "../../src/assets/img/fungsionaris/perorang/Game/Okhris.png"
+import _donny from "../../src/assets/img/fungsionaris/perorang/Game/Donny.png"
+import _darma from "../../src/assets/img/fungsionaris/perorang/Game/Dharma.png"
+import _indra from "../../src/assets/img/fungsionaris/perorang/Game/Indra.png"
+import _giri from "../../src/assets/img/fungsionaris/perorang/Game/Giri.png"
+
+import _eka from "../../src/assets/img/fungsionaris/perorang/office/Eka.png"
+import _adit from "../../src/assets/img/fungsionaris/perorang/office/Adit.png"
+import _widyarini from "../../src/assets/img/fungsionaris/perorang/office/Widyarini.png"
+import _nia from "../../src/assets/img/fungsionaris/perorang/office/Niyaw.png"
+import _sri from "../../src/assets/img/fungsionaris/perorang/office/Sridewi.png"
+import _dhini from "../../src/assets/img/fungsionaris/perorang/office/Dhini.png"
+import _oka from "../../src/assets/img/fungsionaris/perorang/office/Oka.png"
+import _anggreni from "../../src/assets/img/fungsionaris/perorang/office/Anggreni.png"
+import _rani from "../../src/assets/img/fungsionaris/perorang/office/Rani.png"
+import _iluh from "../../src/assets/img/fungsionaris/perorang/office/Iluh.png"
+
+import _ratna from "../../src/assets/img/fungsionaris/perorang/vcd/Ratna_.png"
+import _widyasari from "../../src/assets/img/fungsionaris/perorang/vcd/Widyasari.png"
+import _tirta from "../../src/assets/img/fungsionaris/perorang/vcd/Tirta.png"
+import _radit from "../../src/assets/img/fungsionaris/perorang/vcd/Radit.png"
+import _ryan from "../../src/assets/img/fungsionaris/perorang/vcd/Ryan.png"
+import _ayunda from "../../src/assets/img/fungsionaris/perorang/vcd/Ayunda.png"
+
+import _shanti from "../../src/assets/img/fungsionaris/perorang/web/Shanti.png"
+import _willy from "../../src/assets/img/fungsionaris/perorang/web/Willy.png"
+import _fara from "../../src/assets/img/fungsionaris/perorang/web/Paraday.png"
+import _chesa from "../../src/assets/img/fungsionaris/perorang/web/Chesa.png"
+import _dimas from "../../src/assets/img/fungsionaris/perorang/web/Dimas.png"
+import _wahyuni from "../../src/assets/img/fungsionaris/perorang/web/Wahyuni.png"
 
 const imagesData = 
 {
@@ -142,6 +181,46 @@ const imagesData =
     "intech_foto_dokum8": _intech_foto_dokum8,
     "intech_foto_dokum9": _intech_foto_dokum9,
     "test": _test,
+
+    //fungsio
+    "diah":_ayudiah,
+    "mariani":_mariani,
+    "sastie":_sastie,
+    "artani":_artani,
+    "listya":_listya,
+    "chirstina":_chirstina,
+
+    "tasya":_tasya,
+    "okris":_okris,
+    "donny":_donny,
+    "darma":_darma,
+    "indra":_indra,
+    "giri":_giri,
+
+    "eka":_eka,
+    "adit":_adit,
+    "widyarini":_widyarini,
+    "nia":_nia,
+    "sri":_sri,
+    "dhini":_dhini,
+    "anggreni":_anggreni,
+    "oka":_oka,
+    "rani":_rani,
+    "iluh":_iluh,
+
+    "ratna":_ratna,
+    "widyasari":_widyasari,
+    "tirta":_tirta,
+    "radit":_radit,
+    "ryan":_ryan,
+    "ayunda":_ayunda,
+
+    "shanti":_shanti,
+    "willy":_willy,
+    "fara":_fara,
+    "chesa":_chesa,
+    "dimas":_dimas,
+    "wahyuni":_wahyuni,
 }
 
 export default imagesData;

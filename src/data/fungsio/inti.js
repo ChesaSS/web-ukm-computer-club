@@ -1,7 +1,9 @@
+import imagesData from "../imgImports";
+
 const intiData = [
     {
         id: 1,
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Diah.png", 
+        img: imagesData.diah, 
         nama: "Ayu Diah",
         ig: "diahsukma._",
         link: "https://www.instagram.com/diahsukma._?igsh=MW9rdWhmMDl0eTFnMg==",
@@ -9,7 +11,7 @@ const intiData = [
     },
     {
         id: 2,
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Mariani.png", 
+        img: imagesData.mariani, 
         nama: "Marianni",
         ig: "mariannikomang",
         link: "https://www.instagram.com/mariannikomang?igsh=MWo2bHVndXNlMWZ2YQ==",
@@ -17,7 +19,7 @@ const intiData = [
     },
     {
         id: 3,
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Shastie.png", 
+        img: imagesData.sastie, 
         nama: "Sastie",
         ig: "prasastie.bl",
         link: "https://www.instagram.com/prasastie.bl?igsh=M2FuZmVyd2lsbzg=",
@@ -25,7 +27,7 @@ const intiData = [
     },
     {
         id: 4, 
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Artani.png", 
+        img: imagesData.artani, 
         nama: "Artani",
         ig: "artaniwjynti",
         link: "https://www.instagram.com/artaniwjynti?igsh=NDA3a3E4ODV4MWpx",
@@ -33,7 +35,7 @@ const intiData = [
     },
     {
         id: 5,  
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Listya.png", 
+        img: imagesData.listya, 
         nama: "Listya",
         ig: "listyanatallia",
         link: "https://www.instagram.com/listyanatallia?igsh=MW5kb2Vhc2lxM29jag%3D%3D&utm_source=qr",
@@ -41,7 +43,7 @@ const intiData = [
     },
     {
         id: 6,  
-        img: "../../src/assets/img/fungsionaris/perorang/INTI/Cristina.png", 
+        img: imagesData.chirstina, 
         nama: "Christina",
         ig: "chessadelano",
         link: "https://www.instagram.com/chessadelano?igsh=MWVsNDh1M2s1dHB2eg==",

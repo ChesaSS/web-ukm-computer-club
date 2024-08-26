@@ -1,7 +1,9 @@
+import imagesData from "../imgImports";
+
 const VcdData = [
     {
         id: 1,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Ratna_.png", 
+        img: imagesData.ratna, 
         nama: "Ratnaa",
         ig: "ratnadewi.adnyani",
         link: "https://www.instagram.com/ratnadewi.adnyani?igsh=YThsdjZkNXNrbmR6",
@@ -9,7 +11,7 @@ const VcdData = [
     },
     {
         id: 2,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Widyasari.png", 
+        img: imagesData.widyasari, 
         nama: "Widyasari",
         ig: "wdysarid",
         link: "https://www.instagram.com/wdysarid",
@@ -17,7 +19,7 @@ const VcdData = [
     },
     {
         id: 3,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Tirta.png", 
+        img: imagesData.tirta, 
         nama: "Tirta",
         ig: "niluhtirtaa",
         link: "https://www.instagram.com/niluhtirtaa?igsh=MXZlY2d1MHg1Z3l6MA%3D%3D&utm_source=qr",
@@ -25,7 +27,7 @@ const VcdData = [
     },
     {
         id: 4,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Radit.png", 
+        img: imagesData.radit, 
         nama: "Raditya",
         ig: "radityadii_",
         link: "https://www.instagram.com/radityadii_?igsh=MW4xejY0N3d1anFjcA==",
@@ -33,7 +35,7 @@ const VcdData = [
     },
     {
         id: 5,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Ryan.png", 
+        img: imagesData.ryan, 
         nama: "Dek Yan",
         ig: "kadekryan_1",
         link: "https://www.instagram.com/kadekryan_1?igsh=ZGd5MWh2MjQyNXYz",
@@ -41,7 +43,7 @@ const VcdData = [
     },
     {
         id: 6,  
-        img: "../../src/assets/img/fungsionaris/perorang/vcd/Ayunda.png", 
+        img: imagesData.ayunda, 
         nama: "Ayunda",
         ig: "ayundaastitiani",
         link: "https://www.instagram.com/ayundaastitiani",
