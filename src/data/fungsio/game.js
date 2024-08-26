@@ -1,7 +1,9 @@
+import imagesData from "../imgImports";
+
 const GameData = [
     {
         id: 1,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Tasya.png", 
+        img: imagesData.tasya, 
         nama: "Tasya",
         ig: "nas.tsya",
         link: "https://www.instagram.com/nas.tsya?igsh=MXVobHhtdXd6Y3dkZQ==",
@@ -9,7 +11,7 @@ const GameData = [
     },
     {
         id: 2,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Okhris.png", 
+        img: imagesData.okris, 
         nama: "Okris",
         ig: "okrisiana13",
         link: "https://www.instagram.com/okrisiana13?igsh=d215eXNlZmw4NWti&utm_source=qr",
@@ -17,7 +19,7 @@ const GameData = [
     },
     {
         id: 3,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Donny.png", 
+        img: imagesData.donny, 
         nama: "Donny",
         ig: "nyomand__",
         link: "https://www.instagram.com/nyomand__?igsh=eW9oZnFhOXkycjNn&utm_source=qr",
@@ -25,7 +27,7 @@ const GameData = [
     },
     {
         id: 4,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Dharma.png", 
+        img: imagesData.darma, 
         nama: "Darma",
         ig: "darmaptr_30",
         link: "https://www.instagram.com/darmaptr_30/",
@@ -33,7 +35,7 @@ const GameData = [
     },
     {
         id: 5,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Indra.png", 
+        img: imagesData.indra, 
         nama: "Inguss",
         ig: "indrabguss",
         link: "https://www.instagram.com/indrabguss?igsh=MTFwNWpkdnB0OWtwcA==",
@@ -41,7 +43,7 @@ const GameData = [
     },
     {
         id: 6,  
-        img: "../../src/assets/img/fungsionaris/perorang/Game/Giri.png", 
+        img: imagesData.giri, 
         nama: "Giri",
         ig: "esagiri_",
         link: "https://www.instagram.com/esagiri_?igsh=MXJkNTgwYXlyd2VvcQ==",

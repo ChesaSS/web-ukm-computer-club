@@ -1,7 +1,9 @@
+import imagesData from "../imgImports";
+
 const WebData = [
     {
         id: 1,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/Shanti.png", 
+        img: imagesData.shanti, 
         nama: "Shanti Kesari",
         ig: "shantikp_",
         link: "https://www.instagram.com/shantikp_",
@@ -9,7 +11,7 @@ const WebData = [
     },
     {
         id: 2,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/Willy.png", 
+        img: imagesData.willy, 
         nama: "Willy Candra",
         ig: "willycandra12",
         link: "https://www.instagram.com/willycandra12/",
@@ -17,7 +19,7 @@ const WebData = [
     },
     {
         id: 3,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/Paraday.png", 
+        img: imagesData.fara, 
         nama: "Faradaii",
         ig: "kfradai",
         link: "https://www.instagram.com/kfradai",
@@ -25,7 +27,7 @@ const WebData = [
     },
     {
         id: 4,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/Chesa.png", 
+        img: imagesData.chesa, 
         nama: "Chesa Sas",
         ig: "chesa_sas",
         link: "https://www.instagram.com/chesa_sas/",
@@ -33,7 +35,7 @@ const WebData = [
     },
     {
         id: 5,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/Dimas.png", 
+        img: imagesData.dimas, 
         nama: "GungDimas",
         ig: "gungdms_",
         link: "https://www.instagram.com/gungdms_",
@@ -41,7 +43,7 @@ const WebData = [
     },
     {
         id: 6,  
-        img: "../../src/assets/img/fungsionaris/perorang/web/wahyuni.png", 
+        img: imagesData.wahyuni, 
         nama: "Wahyuni",
         ig: "nl_wahyunii",
         link: "https://www.instagram.com/nl_wahyunii?igsh=MW9pZHZjMTQ0cjI3Ng==",

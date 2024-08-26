@@ -1,7 +1,9 @@
+import imagesData from "../imgImports";
+
 const OfficeData = [
     {
         id: 1,
-        img: "../../src/assets/img/fungsionaris/perorang/office/Eka.png", 
+        img: imagesData.eka, 
         nama: "Eka Pratama",
         ig: "_eka.pratama",
         link: "https://www.instagram.com/_eka.pratama?igsh=dnJyMHN1aW10djcx",
@@ -9,7 +11,7 @@ const OfficeData = [
     },
     {
         id: 2,
-        img: "../../src/assets/img/fungsionaris/perorang/office/Adit.png", 
+        img: imagesData.adit, 
         nama: "Adit",
         ig: "aditpastikayana",
         link: "https://www.instagram.com/aditpastikayana?igsh=ZXNtcHI3eTV3dHZ1&utm_source=qr",
@@ -17,7 +19,7 @@ const OfficeData = [
     },
     {
         id: 3,
-        img: "../../src/assets/img/fungsionaris/perorang/office/Widyarini.png", 
+        img: imagesData.widyarini, 
         nama: "Widyarini",
         ig: "wiidyarini_",
         link: "https://www.instagram.com/wiidyarini_?igsh=aWczZGV0YzV5MTFr&utm_source=qr",
@@ -25,7 +27,7 @@ const OfficeData = [
     },
     {
         id: 4, 
-        img: "../../src/assets/img/fungsionaris/perorang/office/Niyaw.png", 
+        img: imagesData.nia, 
         nama: "Nia",
         ig: "niiyawv",
         link: "https://www.instagram.com/niiyawv?igsh=ZWQzcTc5aWlreG0%3D&utm_source=qr",
@@ -33,7 +35,7 @@ const OfficeData = [
     },
     {
         id: 5,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Sridewi.png", 
+        img: imagesData.sri, 
         nama: "Sri Dewi",
         ig: "sridewiiii_",
         link: "https://www.instagram.com/sridewiiii_?igsh=ZXlvM2x0bnJ6azBy",
@@ -41,7 +43,7 @@ const OfficeData = [
     },
     {
         id: 6,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Dhini.png", 
+        img: imagesData.dhini, 
         nama: "Dhini",
         ig: "dhinimirayani",
         link: "https://www.instagram.com/dhinimirayani?igsh=MWIwMHkwcXBmZHV3bw==",
@@ -49,7 +51,7 @@ const OfficeData = [
     },
     {
         id: 7,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Oka.png", 
+        img: imagesData.oka, 
         nama: "Oka",
         ig: "okasetyawtii",
         link: "https://www.instagram.com/okasetyawtii/",
@@ -57,7 +59,7 @@ const OfficeData = [
     },
     {
         id: 8,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Anggreni.png", 
+        img: imagesData.anggreni, 
         nama: "Anggreni",
         ig: "xo.anggrenii",
         link: "https://www.instagram.com/xo.anggrenii",
@@ -65,7 +67,7 @@ const OfficeData = [
     },
     {
         id: 9,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Rani.png", 
+        img: imagesData.rani, 
         nama: "Rani",
         ig: "sriindrani_",
         link: "https://www.instagram.com/sriindrani_?/",
@@ -73,7 +75,7 @@ const OfficeData = [
     },
     {
         id: 10,  
-        img: "../../src/assets/img/fungsionaris/perorang/office/Iluh.png", 
+        img: imagesData.iluh, 
         nama: "Iluh",
         ig: "iluhgedong_",
         link: "https://www.instagram.com/iluhgedong_?igsh=cTdndTM4MGFuMG40",
