@@ -19,7 +19,7 @@ function FungsioPage(){
                 <div className="w-konten mx-auto mt-20" data-aos="fade-up">
                     <div className="lg:flex items-center">
                         <div className="border border-black w-full"></div>
-                        <h5 className="text-xl font-semibold lg:w-[55%] text-center uppercase">Inti UKM Computer Club</h5>
+                        <h5 className="text-xl font-semibold lg:w-[55%] text-center uppercase">Fungsionaris Inti UKM Computer Club</h5>
                         <div className="border border-black w-full"></div>
                     </div>
 
@@ -49,7 +49,7 @@ function FungsioPage(){
                 <div className="w-konten mx-auto mt-20" data-aos="fade-up">
                     <div className="lg:flex items-center">
                         <div className="border border-black w-full"></div>
-                        <h5 className="text-xl font-semibold lg:w-[135%] text-center uppercase">Fungsionaris Divisi Visual Comunication Design</h5>
+                        <h5 className="text-xl font-semibold lg:w-[135%] text-center uppercase">Fungsionaris Divisi Visual Communication Design</h5>
                         <div className="border border-black w-full"></div>
                     </div>
 

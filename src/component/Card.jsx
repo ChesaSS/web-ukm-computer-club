@@ -9,7 +9,7 @@ function Card(props) {
                     <img src={`${img}`} className="w-full rounded-ss-lg rounded-se-lg" loading="lazy"></img>
                 </div>
 
-                <div className="bg-white p-1 w-full relative rounded-lg z-20 -top-5 shadow-lg shadow-gray-300">
+                <div className="bg-white p-1 w-full relative rounded-lg z-20 -top-20 lg:-top-5 shadow-lg shadow-gray-300">
                     <h3 className="font-semibold text-center my-3 text-lg">{divisi}</h3>
                     <p className="text-center text-sm w-konten mx-auto mb-5">{deskripsi}</p>
                     <Button divClass="flex justify-center" href={`${href}`} text="Baca Selengkapnya"/>

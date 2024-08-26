@@ -33,7 +33,7 @@ function HomePage() {
                             <div className="w-full lg:w-[70%] p-1" data-aos="fade-up">
                                 <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-2">unit kegiatan mahasiswa computer club</h1>
                                 <div className="mb-2 md:text-lg"> 
-                                    <h3 className="lg:text-justify text-center">Selamat Datang didunia penuh inovasi dan kerjasama:</h3> 
+                                    <h3 className="lg:text-justify text-center">Selamat Datang di dunia penuh inovasi dan kerjasama:</h3> 
                                     <h3 className="lg:text-justify text-center">{`${"Inspirasi Mahasiswa di Politeknik Negeri Bali"}`}</h3> 
                                 </div>
                                 <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center">#MakeItHappen</h2>
@@ -138,7 +138,7 @@ function HomePage() {
                         <h2 className="font-semibold text-xl md:text-2xl text-black">
                              Pertanyaan yang sering ditanyakan
                         </h2>
-                        <p className="mb-5">Yuk cek, siapa tau pertanyaan ada disini 😊</p>
+                        <p className="mb-5">Yuk cek, siapa tau pertanyaan kamu ada disini 😊</p>
                     </div>
     
                     <div className="w-full lg:w-konten mx-auto lg:flex justify-between">    

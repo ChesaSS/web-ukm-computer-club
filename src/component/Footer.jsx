@@ -28,19 +28,19 @@ function Footer(){
                     <h2 className="mb-6 text-sm font-semibold text-white uppercase">Navigation</h2>
                     <ul className="text-white font-light">
                         <li className="mb-4">
-                            <a href="#beranda" className="hover:underline">Beranda</a>
+                            <a href="/#beranda" className="hover:underline">Beranda</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#tentang" className="hover:underline">Tentang Kami</a>
+                            <a href="/#tentang" className="hover:underline">Tentang Kami</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#divisi" className="hover:underline">Divisi</a>
+                            <a href="/#divisi" className="hover:underline">Divisi</a>
                         </li>
                         <li className="mb-4">
-                            <a href="#proker" className="hover:underline">Program Kerja</a>
+                            <a href="/#proker" className="hover:underline">Program Kerja</a>
                         </li>
                         <li>
-                            <a href="#fungsio" className="hover:underline">Fungsionaris</a>
+                            <a href="/#fungsio" className="hover:underline">Fungsionaris</a>
                         </li>
                     </ul>
                 </div>

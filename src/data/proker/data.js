@@ -14,7 +14,7 @@ const prokerData = [
         videoYoutube: "aKnbYeBE6ug",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
         deskripsiDetail: `Computer Club Digital Talent merupakan kegiatan berupa pelatihan yang berhubungan dengan setiap divisi yang terdapat di UKM Computer Club untuk mengolah data tertentu kemudian dilanjutkan dengan evaluasi di setiap bidangnya dalam menggunakan aplikasi komputer. Bentuk kegiatan Computer Club Digital Talent berupa pelatihan, pemberian project, dan perlombaan pada masing-masing divisi, kegiatan ini ditujukan kepada anggota UKM Computer Club dan akan dilaksanakan secara luring atau offline.<br>
         <br> 
-        Pelatihan ini diharapkan dapat membantu mengasah kemampuan mahasiswa Politeknik Negeri Bali khususnya yang menjadi anggota di Unit Kegiatan Mahasiswa Computer Club sehingga dapat bersaing di dunia kerja. Selain itu. dengan adanya pelatihan ini diharapkan akan muncul talenta-talenta baru dibidang informasi dan teknologi yang nantinya dapat mewakili UKM Computer Club dan Politeknik Negeri Bali dalam berbagai ajang perlombaan di tingkat regional, nasional, maupun internasional
+        Pelatihan ini diharapkan dapat membantu mengasah kemampuan mahasiswa Politeknik Negeri Bali khususnya yang menjadi anggota di Unit Kegiatan Mahasiswa Computer Club sehingga dapat bersaing di dunia kerja. Selain itu, dengan adanya pelatihan ini diharapkan akan muncul talenta-talenta baru dibidang informasi dan teknologi yang nantinya dapat mewakili UKM Computer Club dan Politeknik Negeri Bali dalam berbagai ajang perlombaan di tingkat regional, nasional, maupun internasional.
         <br>
         <br>
         Adapun divisi yang mengadakan perlombaan adalah sebagai berikut:`,
@@ -94,20 +94,20 @@ const prokerData = [
         id: 2,
         logo: imagesData.logo_intech, 
         img: imagesData.intech_foto, 
-        name: "Intechfest",
-        deskripsi: "IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi",
+        name: "IntechFest",
+        deskripsi: "IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi.",
         href: "/programkerja/intechfest",
         singkatan: "intechfest",
         periode: "Tahun 2023",
         videoYoutube: "w5Mc3Q3MZFs",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
-        deskripsiDetail: `IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi
+        deskripsiDetail: `IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi.
         <br>
         <br>
         Adapun rangkaian kegiatan Information And Technology Festival meliputi Sebuah Seminar Nasional dan juga 3 Cabang Perlombaan dibidang IT yang meliputi:`,
         items: [
             {
                 icon: faBookmark, // fontawesomeicon
-                text: "Lomba Web Desain Competition",
+                text: "Lomba Web Design Competition",
             },
             {
                 icon: faBookmark,
@@ -133,7 +133,7 @@ const prokerData = [
             },
             {
                 head: "61+",
-                text: "Total Patners",
+                text: "Total Partners",
             },
         ],
         deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia atau dari peserta.",
@@ -212,7 +212,7 @@ const prokerData = [
             },
             {
                 head: "30+",
-                text: "Total Patners",
+                text: "Total Partners",
             },
         ],
         deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia atau dari peserta.",
