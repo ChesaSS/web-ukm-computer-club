@@ -10,8 +10,8 @@ const prokerData = [
         deskripsi: "Computer Club Digital Talent merupakan kegiatan berupa pelatihan yang berhubungan dengan setiap divisi yang terdapat di UKM Computer Club untuk mengolah data tertentu kemudian dilanjutkan dengan evaluasi di setiap bidangnya dalam menggunakan aplikasi komputer.",
         href: "/programkerja/ccdt",
         singkatan: "ccdt",
-        periode: "Tahun 2023",
-        videoYoutube: "aKnbYeBE6ug",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
+        periode: "Tahun 2024",
+        videoYoutube: "8YmVQhvxhs8",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
         deskripsiDetail: `Computer Club Digital Talent merupakan kegiatan berupa pelatihan yang berhubungan dengan setiap divisi yang terdapat di UKM Computer Club untuk mengolah data tertentu kemudian dilanjutkan dengan evaluasi di setiap bidangnya dalam menggunakan aplikasi komputer. Bentuk kegiatan Computer Club Digital Talent berupa pelatihan, pemberian project, dan perlombaan pada masing-masing divisi, kegiatan ini ditujukan kepada anggota UKM Computer Club dan akan dilaksanakan secara luring atau offline.<br>
         <br> 
         Pelatihan ini diharapkan dapat membantu mengasah kemampuan mahasiswa Politeknik Negeri Bali khususnya yang menjadi anggota di Unit Kegiatan Mahasiswa Computer Club sehingga dapat bersaing di dunia kerja. Selain itu, dengan adanya pelatihan ini diharapkan akan muncul talenta-talenta baru dibidang informasi dan teknologi yang nantinya dapat mewakili UKM Computer Club dan Politeknik Negeri Bali dalam berbagai ajang perlombaan di tingkat regional, nasional, maupun internasional.

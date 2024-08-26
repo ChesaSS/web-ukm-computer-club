@@ -67,7 +67,6 @@ import _intech_foto_dokum6 from '../../src/assets/img/proker/intech/dokumen6.jpg
 import _intech_foto_dokum7 from '../../src/assets/img/proker/intech/dokumen7.jpg'
 import _intech_foto_dokum8 from '../../src/assets/img/proker/intech/dokumen8.jpg'
 import _intech_foto_dokum9 from '../../src/assets/img/proker/intech/dokumen9.jpg'
-import _test from '../../src/assets/img/test.png'
 
 // fungsionaris
 import _ayudiah from "../../src/assets/img/fungsionaris/perorang/INTI/Diah.png"
@@ -180,7 +179,6 @@ const imagesData =
     "intech_foto_dokum7": _intech_foto_dokum7,
     "intech_foto_dokum8": _intech_foto_dokum8,
     "intech_foto_dokum9": _intech_foto_dokum9,
-    "test": _test,
 
     //fungsio
     "diah":_ayudiah,
