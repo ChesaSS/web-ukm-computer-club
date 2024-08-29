@@ -31,12 +31,15 @@ function HomePage() {
                             </div>
 
                             <div className="w-full lg:w-[70%] p-1" data-aos="fade-up">
-                                <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-2">unit kegiatan mahasiswa computer club</h1>
-                                <div className="mb-2 md:text-lg"> 
+                                <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-">unit kegiatan mahasiswa computer club</h1>
+                                <div className="mb-2 lg:mb-5 md:text-lg"> 
                                     <h3 className="lg:text-justify text-center">Selamat Datang di dunia penuh inovasi dan kerjasama:</h3> 
                                     <h3 className="lg:text-justify text-center">{`${"Inspirasi Mahasiswa di Politeknik Negeri Bali"}`}</h3> 
                                 </div>
-                                <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center">#MakeItHappen</h2>
+
+                                <Button divClass="flex justify-center lg:inline" href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" text="Daftar Sekarang" target="_blank"/>
+
+                                <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center mt-2 lg:mt-5">#MakeItHappen</h2>
                             </div>
 
                             <div className="w-[35%] hidden lg:block" data-aos="zoom-in">

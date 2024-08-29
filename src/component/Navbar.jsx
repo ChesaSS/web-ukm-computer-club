@@ -61,6 +61,9 @@ function Navbar(){
                         <li className='m-1 p-1'>
                             <a href="/#fungsio" className="NavbarLink">Fungsionaris</a>
                         </li>
+                        <li className='m-1 p-1'>
+                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="NavbarLink" target='_blank'>Pendaftaran</a>
+                        </li>
                     </ul>
                 </div>
             </div>

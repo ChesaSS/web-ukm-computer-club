@@ -7,7 +7,7 @@ const divisiData = [
         img: imagesData.cover_divisi_office,
         singkatan: "office", 
         divisi: "Office",
-        deskripsi: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office dan Google Workspace",
+        deskripsi: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office dan Google Workspace.",
         href: "/divisi/office",
         imgCover: imagesData.cover_divisi_office,
         deskripsiKegiatan: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office seperti Word, Excel, PowerPoint, dan Access serta aplikasi perkantoran berbasis web dari Google Workspace diantaranya Google Docs, Google Sheets, dan Google Slides.",
@@ -56,12 +56,12 @@ const divisiData = [
             {
                 icon: faBookOpen ,
                 judul: "Microsoft Office",
-                deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Microsoft Office seperti Word, Excel, PowerPoint, dan Access",
+                deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Microsoft Office seperti Word, Excel, PowerPoint, dan Access.",
             },
             {
                 icon: faBookOpen,
                 judul: "Google Workspace",
-                deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Google Workspace seperti Google Docs, Google Sheets, dan Google Slides",
+                deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Google Workspace seperti Google Docs, Google Sheets, dan Google Slides.",
             },
         ],
     },
@@ -70,11 +70,11 @@ const divisiData = [
         img: imagesData.cover_divisi_vcd, 
         singkatan: "vcd",
         divisi: "Visual Communication Design",
-        deskripsi: "Mempelajari tentang desain mulai dari membuat secara digital maupun pengimplementasiannya pada media cetak.",
+        deskripsi: "Mempelajari editing gambar serta desain digital sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
         href: "/divisi/vcd",
         imgCover: imagesData.cover_divisi_vcd,
-        deskripsiKegiatan: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website",
-        deskripsiMateri: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website",
+        deskripsiKegiatan: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
+        deskripsiMateri: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
         itemsKegiatan: [
             {
                 id: 1,
