@@ -28,7 +28,7 @@ function ProkerPage() {
     return (
         prokerDetail ? (
             <div>
-                <div className="absolute inset-0 -z-10 bg-ornamen"/>
+                <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed bg-bottom"/>
 
                 <section className="py-8 md:pb-20 relative 2xl:h-screen">
                     <div className="p-2 w-konten mx-auto" data-aos="fade-up">

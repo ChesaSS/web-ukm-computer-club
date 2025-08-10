@@ -12,7 +12,7 @@ function DivisiPage() {
     return (
         divisiDetail ? (
             <div>
-                <div className="absolute inset-0 -z-20 bg-ornamen"/>
+                <div className="absolute inset-0 -z-20 bg-ornamen bg-fixed bg-bottom"/>
 
                 <section className="py-8 md:pb-20 relative 2xl:h-screen">
                     <div className="relative">

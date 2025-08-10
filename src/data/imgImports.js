@@ -29,6 +29,7 @@ import _bersama2 from '../../src/assets/img/hero/bersama2.jpg'
 import _Logo_ccdt from '../../src/assets/img/logo/Logo ccdt.png'
 import _logo_intech from '../../src/assets/img/logo/logo intech.png'
 import _LOGO_PNB from '../../src/assets/img/logo/logo_pnb.png'
+import _LOGO_PNB_PUTIH from '../../src/assets/img/logo/logo_pnb_putih.png'
 import _LOGO_UKM_BERWARNA from '../../src/assets/img/logo/LOGO UKM BERWARNA.png'
 import _LOGO_UKM_HITAM from '../../src/assets/img/logo/LOGO UKM HITAM.png'
 import _LOGO_UKM_PUTIH from '../../src/assets/img/logo/LOGO UKM PUTIH.png'
@@ -141,6 +142,7 @@ const imagesData =
     "Logo_ccdt": _Logo_ccdt,
     "logo_intech": _logo_intech,
     "LOGO_PNB": _LOGO_PNB,
+    "LOGO_PNB_PUTIH": _LOGO_PNB_PUTIH,
     "LOGO_UKM_BERWARNA": _LOGO_UKM_BERWARNA,
     "LOGO_UKM_HITAM": _LOGO_UKM_HITAM,
     "LOGO_UKM_PUTIH": _LOGO_UKM_PUTIH,

@@ -9,9 +9,10 @@ export default {
     colors: {
       'primary': '#3838E3',
       'secondary': '#8787FF',
+      'tetiary': '#C8C8FE',
       'hover-blue': '#16165B',
       'hitam': '#1F2227',
-      'tetiary': '#C8C8FE',
+      'putih': "#FFFFFF",
     },
     extend: {
       backgroundImage: {

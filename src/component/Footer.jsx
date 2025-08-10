@@ -8,10 +8,10 @@ function Footer(){
 <footer className="bg-hitam relative z-40">
     <div className="mx-auto w-navfot p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0 md:w-[45%] flex flex-col justify-center me-5">
+            <div className="mb-6 md:mb-0 md:w-[45%] flex flex-col justify-start me-5">
                 <div className="flex">
                     <div>
-                        <img src={imagesData.LOGO_PNB} className="h-12 me-3" alt="Logo PNB" loading="lazy"/>
+                        <img src={imagesData.LOGO_PNB_PUTIH} className="h-12 me-3" alt="Logo PNB" loading="lazy"/>
                     </div>
                     <div>
                         <img src={imagesData.LOGO_UKM_PUTIH} className="h-12 me-3" alt="Logo UKM" loading="lazy"/>
@@ -64,14 +64,18 @@ function Footer(){
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-white uppercase">Contact Us</h2>
                     <ul className="text-white font-light">
-                        <li className="mb-4 flex items-center">
-                            <i className="fa-brands fa-whatsapp me-2"></i>
-                            <a href="https://wa.me/+6282340949343" className="hover:underline" target="_blank">Ayu Diah</a>
-                        </li>
-                        <li className="flex items-center">
-                            <i className="fa-brands fa-whatsapp me-2"></i>
-                            <a href="https://wa.me/+6281335355270" className="hover:underline">Sastie</a>
-                        </li>
+                        <a href="https://wa.me/+6285737450341" className="group" target="_blank">
+                            <li className="mb-4 flex items-center">
+                                <i className="fa-brands fa-whatsapp me-2"></i>
+                                <p className="group-hover:underline">Artani</p>
+                            </li>
+                        </a>
+                        <a href="https://wa.me/+6281228699598" className="group" target="_blank">
+                            <li className="flex items-center">
+                                <i className="fa-brands fa-whatsapp me-2"></i>
+                                <p className="group-hover:underline">Oka Setyawati</p>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -86,18 +90,18 @@ function Footer(){
             <div className="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" target="_blank" className="text-white hover:text-primary">
                     <i className="fa-brands fa-instagram text-lg"></i>
-                    <span className="sr-only">Instagram page</span>
+                    <span className="sr-only">Instagram</span>
                 </a>
                 <a href="https://www.tiktok.com/@ukmcomputerclub?_t=8ohE7tbwgni&_r=1" target="_blank" className="text-white hover:text-primary ms-5">
                     <i className="fa-brands fa-tiktok text-lg"></i>
                     <span className="sr-only">Tiktok</span>
                 </a>
-                <a href="https://linkedin.com/company/ukm-computerclub" target="_blank" className="text-white hover:text-primary ms-5">
-                    <i className="fa-brands fa-linkedin text-lg"></i>
-                    <span className="sr-only">Linkedin</span>
-                </a>
                 <a href="https://youtube.com/@ukmcomputerclub?si=58xhcjuwbTmeQcOA" target="_blank" className="text-white hover:text-primary ms-5">
                     <i className="fa-brands fa-youtube text-lg"></i>
+                    <span className="sr-only">YouTube</span>
+                </a>
+                <a href="https://linkedin.com/company/ukm-computerclub" target="_blank" className="text-white hover:text-primary ms-5">
+                    <i className="fa-brands fa-linkedin text-lg"></i>
                     <span className="sr-only">Linkedin</span>
                 </a>
             </div>

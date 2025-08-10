@@ -9,7 +9,7 @@ import VcdData from '../../data/fungsio/vcd';
 function FungsioPage(){
     return(
         <div className="relative">
-            <div className="absolute inset-0 -z-10 bg-ornamen"/>
+            <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed bg-bottom"/>
             
             <Navbar />
 

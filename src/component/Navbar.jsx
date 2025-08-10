@@ -34,10 +34,10 @@ function Navbar(){
 
     //tampilan
     return (
-        <nav className="bg-white border-gray-200 fixed w-full z-50">
+        <nav className="bg-hitam text-white border-gray-200 fixed w-full z-50">
             <div className="w-navfot flex flex-wrap items-center justify-between mx-auto p-3">
                 <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src={imagesDatas.LOGO_UKM_HITAM} className="md:h-10 h-8" alt="Logo UKM" loading="lazy"/>
+                    <img src={imagesDatas.LOGO_UKM_PUTIH} className="md:h-10 h-8" alt="Logo UKM" loading="lazy"/>
                     <span className="self-center md:text-xl text-lg font-semibold whitespace-nowrap">Computer Club</span>
                 </div>
                 <button type="button" className="toggle-btn inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -45,7 +45,7 @@ function Navbar(){
                     <i className="fa-solid fa-bars"></i>
                 </button>
                 <div className="menu hidden w-full md:block md:w-auto" id="menu">
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-hitam">
                         <li className='m-1 p-1'>
                             <a href="/#beranda" className="NavbarLink" aria-current="page">Beranda</a>
                         </li>
@@ -62,7 +62,7 @@ function Navbar(){
                             <a href="/#fungsio" className="NavbarLink">Fungsionaris</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="NavbarLink" target='_blank'>Pendaftaran</a>
+                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-primary hover:bg-hover-blue py-2 px-3 rounded-lg text-white" target='_blank'>Daftar Sekarang</a>
                         </li>
                     </ul>
                 </div>
