@@ -62,7 +62,7 @@ function Navbar(){
                             <a href="/#fungsio" className="NavbarLink">Fungsionaris</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-primary hover:bg-hover-blue py-2 px-3 rounded-lg text-white" target='_blank'>Daftar Sekarang</a>
+                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-secondary hover:bg-primary py-2 px-3 rounded-lg text-white" target='_blank'>Daftar Sekarang</a>
                         </li>
                     </ul>
                 </div>

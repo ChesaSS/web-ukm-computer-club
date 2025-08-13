@@ -1,5 +1,5 @@
 const homepage = {
-    videoYoutube: "nAz_molNjDM&t=22s"
-}
+        videoYoutube: "nAz_molNjDM"
+    }
 
 export default homepage

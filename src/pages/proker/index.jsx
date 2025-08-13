@@ -28,33 +28,27 @@ function ProkerPage() {
     return (
         prokerDetail ? (
             <div>
-                <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed bg-bottom"/>
+                <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed"/>
 
-                <section className="py-8 md:pb-20 relative 2xl:h-screen">
-                    <div className="p-2 w-konten mx-auto" data-aos="fade-up">
-                        <h1 className="text-center font-semibold text-xl md:text-lg text-secondary m-auto mt-10 mb-2">Program Kerja</h1>
-                        <div className="w-2/5 md:w-1/5 lg:w-1/12 m-auto relative z-10 my-10">
+                <section className="pt-8">
+                    <div className="p-2 w-konten mx-auto" data-aos="fade-down">
+                        <h1 className="text-center font-semibold text-lg md:text-2xl text-hitam m-auto mt-10 mb-8">Program Kerja</h1>
+                        <div className="w-2/5 md:w-1/5 lg:w-1/12 m-auto relative z-10 mb-4">
                             <img src={prokerDetail.logo} className="w-full rounded-ss-lg rounded-se-lg" loading="lazy"></img>
                         </div>
-                    </div>
-                    <div className="p-2 w-konten mx-auto" data-aos="fade-up">
-                        <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto my-10">{prokerDetail.name}</h1>
-                        <p className="text-justify font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{prokerDetail.deskripsi}</p>
+                        <h1 className="text-center font-bold text-xl md:text-4xl md:w-3/5 mx-auto">{prokerDetail.name}</h1>
+                        {/* <p className="text-justify font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{prokerDetail.deskripsi}</p> */}
                     </div>
                 </section>
 
-                <section className="pt-24 relative pb-40">
-                    <div className="absolute inset-0 z-0 md:top-48"
+                <section className="pt-16 relative pb-20">
+                    <div className="absolute inset-0 z-0"
                         style={{
                         backgroundColor: "#1E1E1E",
-                        }} >
-                    </div>
-                    <div className="w-full lg:w-3/4 flex aspect-video m-auto relative">
-                        <YouTube videoId={prokerDetail.videoYoutube} className="aspect-video absolute z-10 -translate-x-1/2 left-1/2 -top-1/4 w-full" opts={opts} onReady={onPlayerReady} iframeClassName="w-konten mx-auto h-full lg:rounded-2xl"/>
+                        }}>
                     </div>
                     <div className="text-white p-2 w-konten mx-auto" data-aos="fade-up">
-                        <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">{prokerDetail.name} Latest Facts</h1>
-                        <div className="text-justify lg:text-center font-normal text-sm md:text-base mb-10 w-full md:w-3/4 md:mx-auto" dangerouslySetInnerHTML={{ __html: prokerDetail.deskripsiDetail }}></div>
+                        <div className="text-justify lg:text-justify font-normal text-sm md:text-base mb-10 w-full md:w-3/4 md:mx-auto" dangerouslySetInnerHTML={{ __html: prokerDetail.deskripsiDetail }}></div>
                     </div>
                     <div className="text-white p-2 w-konten mx-auto flex justify-center flex-wrap lg:flex-nowrap" data-aos="fade-up">
                         {
@@ -80,12 +74,18 @@ function ProkerPage() {
                 </section>
 
                 <section className="py-8 md:pb-20 relative">
-                    <div className="p-2 w-konten mx-auto" data-aos="fade-up">
-                        <h1 className="text-center font-semibold text-xl md:text-lg text-secondary m-auto mt-10 mb-2">Galeri</h1>
+                    <div className="pt-8 pb-4 w-konten mx-auto" data-aos="fade-up">
+                        <h1 className="text-center font-semibold text-xl md:text-2xl text-secondary m-auto mt-10">Video Pengenalan {prokerDetail.name}</h1>
                     </div>
-                    <div className="p-2 w-konten mx-auto" data-aos="fade-up">
-                        <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">Beberapa Dokumentasi {prokerDetail.singkatan.toUpperCase()} {prokerDetail.periode}</h1>
-                        <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-3/5 md:mx-auto">{prokerDetail.deskripsiDokumentasi}</p>
+                    <div className="w-full lg:w-3/4 flex aspect-video m-auto relative" data-aos="fade-up">
+                        <YouTube videoId={prokerDetail.videoYoutube} className="aspect-video w-full" opts={opts} onReady={onPlayerReady} iframeClassName="w-konten mx-auto h-full lg:rounded-2xl"/>
+                    </div>
+                    <div className="pt-8 pb-4 w-konten mx-auto" data-aos="fade-up">
+                        <h1 className="text-center font-semibold text-xl md:text-2xl text-secondary m-auto mt-10">Galeri</h1>
+                    </div>
+                    <div className="w-konten mx-auto" data-aos="fade-up">
+                        <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">Beberapa Dokumentasi {prokerDetail.name} {prokerDetail.periode}</h1>
+                        <p className="text-center font-normal text-sm md:text-base w-full md:w-3/5 md:mx-auto">{prokerDetail.deskripsiDokumentasi}</p>
                     </div>
                     <div className="p-2 w-konten mx-auto flex flex-wrap justify-center">
                         {

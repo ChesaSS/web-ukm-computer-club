@@ -34,6 +34,7 @@ import _LOGO_UKM_BERWARNA from '../../src/assets/img/logo/LOGO UKM BERWARNA.png'
 import _LOGO_UKM_HITAM from '../../src/assets/img/logo/LOGO UKM HITAM.png'
 import _LOGO_UKM_PUTIH from '../../src/assets/img/logo/LOGO UKM PUTIH.png'
 import _Logo_Eagles_hitam from '../../src/assets/img/logo/Logo_Eagles hitam.png'
+import _Logo_Eagles_warna from '../../src/assets/img/logo/Logo_Eagles warna.png'
 import _gelombang_biru from '../../src/assets/img/ornamen/gelombang biru.png'
 import _gelombang_ungu from '../../src/assets/img/ornamen/gelombang ungu.png'
 import _icon_texture from '../../src/assets/img/ornamen/icon texture.png'
@@ -147,6 +148,7 @@ const imagesData =
     "LOGO_UKM_HITAM": _LOGO_UKM_HITAM,
     "LOGO_UKM_PUTIH": _LOGO_UKM_PUTIH,
     "Logo_Eagles_hitam": _Logo_Eagles_hitam,
+    "Logo_Eagles_warna": _Logo_Eagles_warna,
     "gelombang_biru": _gelombang_biru,
     "gelombang_ungu": _gelombang_ungu,
     "icon_texture": _icon_texture,

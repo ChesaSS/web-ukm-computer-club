@@ -7,17 +7,16 @@ const prokerData = [
         logo: imagesData.Logo_ccdt, 
         img: imagesData.ccdt_foto, 
         name: "Computer Club Digital Talent",
-        deskripsi: "Computer Club Digital Talent merupakan kegiatan berupa pelatihan yang berhubungan dengan setiap divisi yang terdapat di UKM Computer Club untuk mengolah data tertentu kemudian dilanjutkan dengan evaluasi di setiap bidangnya dalam menggunakan aplikasi komputer.",
+        deskripsi: "Computer Club Digital Talent (CCDT) merupakan program kerja internal UKM Computer Club yang mengkolaborasikan pelatihan dan perlombaan untuk membekali anggota divisi dengan keterampilan aplikatif agar siap bersaing di dunia digital.",
         href: "/programkerja/ccdt",
         singkatan: "ccdt",
-        periode: "Tahun 2024",
+        periode: "Tahun 2025",
         videoYoutube: "8YmVQhvxhs8",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
-        deskripsiDetail: `Computer Club Digital Talent merupakan kegiatan berupa pelatihan yang berhubungan dengan setiap divisi yang terdapat di UKM Computer Club untuk mengolah data tertentu kemudian dilanjutkan dengan evaluasi di setiap bidangnya dalam menggunakan aplikasi komputer. Bentuk kegiatan Computer Club Digital Talent berupa pelatihan, pemberian project, dan perlombaan pada masing-masing divisi, kegiatan ini ditujukan kepada anggota UKM Computer Club dan akan dilaksanakan secara luring atau offline.<br>
-        <br> 
-        Pelatihan ini diharapkan dapat membantu mengasah kemampuan mahasiswa Politeknik Negeri Bali khususnya yang menjadi anggota di Unit Kegiatan Mahasiswa Computer Club sehingga dapat bersaing di dunia kerja. Selain itu, dengan adanya pelatihan ini diharapkan akan muncul talenta-talenta baru dibidang informasi dan teknologi yang nantinya dapat mewakili UKM Computer Club dan Politeknik Negeri Bali dalam berbagai ajang perlombaan di tingkat regional, nasional, maupun internasional.
+        deskripsiDetail: `
+        Computer Club Digital Talent adalah program kerja internal dari UKM Computer Club yang ditujukan bagi seluruh anggota dari masing-masing divisi. Program ini menggabungkan pelatihan dan perlombaan yang dirancang sesuai dengan bidang Divisi Office, Web Development, Visual Communication Design, dan Game Development.<br>
         <br>
-        <br>
-        Adapun divisi yang mengadakan perlombaan adalah sebagai berikut:`,
+        Selama pelaksanaan pelatihan, anggota berkesempatan mendapatkan ilmu dari pemateri eksternal yang memiliki pengalaman profesional di bidangnya. Dimana program ini bertujuan untuk membekali anggota dengan keterampilan yang tidak hanya bersifat teoritis, tetapi juga aplikatif, serta mendorong mereka untuk mengembangkan potensi dan siap bersaing di berbagai kompetisi digital.
+        <br>`,
         items: [
             {
                 icon: faBookmark, // fontawesomeicon
@@ -95,15 +94,16 @@ const prokerData = [
         logo: imagesData.logo_intech, 
         img: imagesData.intech_foto, 
         name: "IntechFest",
-        deskripsi: "IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi.",
+        deskripsi: "Information and Technology Festival (IntechFest) merupakan program kerja utama UKM Computer Club yang menghadirkan lomba dan seminar nasional sebagai wadah edukatif dan kompetitif di bidang teknologi informasi.",
         href: "/programkerja/intechfest",
         singkatan: "intechfest",
-        periode: "Tahun 2023",
+        periode: "Tahun 2024",
         videoYoutube: "w5Mc3Q3MZFs",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
-        deskripsiDetail: `IntechFest (Information And Technology Festival) merupakan salah satu program kerja terbesar / utama UKM Computer Club. Kegiatan ini ditujukan kepada penggiat IT yang berskala Nasional, jadi peserta dari kegiatan ini melibatkan peserta seluruh Indonesia. Tujuan dari kegiatan ini yaitu untuk menjadi wadah bagi generasi muda dalam bidang pengembangan teknologi.
+        deskripsiDetail: `
+        Information and Technology Festival (IntechFest)  merupakan salah satu program kerja utama dari Unit Kegiatan Mahasiswa Computer Club yang diselenggarakan sebagai bentuk kontribusi nyata dalam mendukung pemahaman dan perkembangan teknologi informasi. Kegiatan ini hadir sebagai ajang edukatif, kompetitif, dan inspiratif yang membuka ruang bagi peserta untuk belajar, berkompetisi, serta menggali potensi diri dalam bidang teknologi informasi.<br>
         <br>
-        <br>
-        Adapun rangkaian kegiatan Information And Technology Festival meliputi Sebuah Seminar Nasional dan juga 3 Cabang Perlombaan dibidang IT yang meliputi:`,
+        Kegiatan pada program kerja IntechFest ini terdiri dari perlombaan dan seminar nasional. Pada perlombaan terdapat 3 cabang lomba yakni Design Challenge, Web Design Competition dan Capture the Flag. Serta seminar nasional yang dikenal dengan nama ChillTalks. Rangkaian kegiatan IntechFest ini  dilaksanakan secara hybrid.
+        <br>`,
         items: [
             {
                 icon: faBookmark, // fontawesomeicon
@@ -119,7 +119,7 @@ const prokerData = [
             },
             {
                 icon: faBookmark,
-                text: "Seminar ChillTalks",
+                text: "Seminar Nasional ChillTalks",
             },
         ],
         facts: [
@@ -178,19 +178,19 @@ const prokerData = [
     },
     {
         id: 3,
-        logo: imagesData.Logo_Eagles_hitam,  
+        logo: imagesData.Logo_Eagles_warna,  
         img: imagesData.eagles_foto, 
-        name: "Eagles",
-        deskripsi: "PNB E-Sport Arena Gaming League Series (PNB EAGLES) merupakan program kerja tahunan UKM Computer Club. Adapun kegiatan yang ada pada PNB EAGLES merupakan perlombaan dan seminar di bidang E-Sport.",
+        name: "EAGLES",
+        deskripsi: "PNB E-Sport Arena Gaming League Series (EAGLES) merupakan program kerja UKM Computer Club yang mewadahi minat dan bakat mahasiswa di bidang E-Sport melalui turnamen dan seminar nasional bertema E-Sport.",
         href: "/programkerja/eagles",
         singkatan: "eagles",
-        periode: "Tahun 2024",
+        periode: "Tahun 2025",
         videoYoutube: "aAiIxXs8Wgk",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
         deskripsiDetail: `
-        PNB E-Sport Arena Gaming League Series (PNB EAGLES) merupakan program kerja tahunan UKM Computer Club. Adapun kegiatan yang ada pada PNB EAGLES merupakan perlombaan dan seminar di bidang E-Sport yang bertujuan untuk mewadahi minat dan bakat masyarakat umum khususnya mahasiswa yang berminat pada bidang E-Sport. Dengan adanya PNB EAGLES ini diharapkan dapat memunculkan potensi-potensi baru di bidang E-Sport yang nantinya dapat melahirkan atlet-atlet unggulan yang dapat mewakili Bali khususnya Politeknik Negeri Bali di tingkat nasional hingga internasional.
+        Seiring berkembangnya teknologi, E-Sport kini menjadi cabang olahraga berbasis teknologi yang digemari generasi muda. PNB E-Sport Arena Gaming League Series (EAGLES) hadir sebagai program kerja Unit Kegiatan Mahasiswa Computer Club untuk mewadahi minat dan bakat mahasiswa di bidang E-Sport, serta memfasilitasi para atlet E-Sport dalam ajang kompetitif yang sehat dan menantang.<br>
         <br>
-        <br>
-        Adapun bentuk kegiatan PNB EAGLES berupa: `,
+        EAGLES bergerak di bidang E-Sport dengan 2 bentuk kegiatan yaitu perlombaan dan seminar. Perlombaan yang diadakan meliputi Turnamen Mobile Legends, PUBG Mobile, dan side game eFootball. Serta kegiatan seminar nasional yang dikenal dengan nama Beyond Limits yang fokus utama pembahasannya mengenai E-Sport. 
+        <br>`,
         items: [
             {
                 icon: faBookmark, // fontawesomeicon

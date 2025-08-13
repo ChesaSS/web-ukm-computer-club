@@ -5,8 +5,8 @@ import divisiData from '../data/divisi/data';
 import prokerData from '../data/proker/data';
 import data1 from '../data/FAQ/data1';
 import data2 from '../data/FAQ/data2';
-// import homepage from '../data/homepage/data';
-// import YouTube from "react-youtube";
+import homepage from '../data/homepage/data';
+import YouTube from "react-youtube";
 import { useState } from 'react';
 import imagesData from "../data/imgImports";
 
@@ -16,14 +16,31 @@ function HomePage() {
     const toggleAnswer = (id) => {
         setOpenQuestion(openQuestion === id ? null : id);
     };
+    const onPlayerReady = (event) => {
+        event.target.playVideo();
+    }
+    
+    const opts= {
+    playerVars: {
+        controls: 1,
+        autoplay: 0,
+        iv_load_policy:3,
+        playsinline:1,
+        fs: 1,
+        rel:0,
+        disablekb: 0,
+        showinfo: 0,
+        mute: 0,
+    },
+    };
 
     return (
         <div>
             <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed"/>
 
             <section className="relative" id="beranda">
-                    <div className="w-screen h-screen z-10 bg-cover bg-center justify-center items-center" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../src/assets/img/hero/bersama2.jpg')" }}>
-                        <div className="h-screen flex text-white justify-center items-center">
+                    <div className="py-8 mt-16 md:mt-0 w-full md:w-screen h-full md:h-screen z-10 bg-cover bg-center justify-center items-center" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../src/assets/img/hero/bersama2.jpg')" }}>
+                        <div className="h-full md:h-screen flex text-white justify-center items-center">
 
                             {/* <div className="w-full md:w-3/4 mx-auto lg:hidden" data-aos="fade-down">
                                 <div className="w-full mb-5">
@@ -40,13 +57,13 @@ function HomePage() {
                                 <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center mt-2 lg:mt-5">#MakeItHappen</h2>
                             </div> */}
                             <div className="flex flex-col w-full lg:w-[70%] justify-center items-center text-center" data-aos="fade-up">
-                                <h1 className="uppercase text-xl md:text-4xl lg:text-6xl font-semibold">unit kegiatan mahasiswa</h1>
-                                <h1 className="uppercase text-xl md:text-4xl lg:text-6xl font-semibold">computer club</h1>
-                                <div className="mb-2 lg:mb-5 md:text-lg">
+                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold">unit kegiatan mahasiswa</h1>
+                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold">computer club</h1>
+                                <div className="mb-2 lg:mb-5 text-xs md:text-lg">
                                 <h3>Selamat Datang di Dunia Penuh Inovasi dan Kerja Sama</h3>
                                 <h3>Inspirasi Mahasiswa di Politeknik Negeri Bali</h3>
                                 </div>
-                                <h2 className="text-white font-semibold italic text-2xl mt-2 lg:mt-5">
+                                <h2 className="text-white font-semibold italic text-sm md:text-2xl mt-2 lg:mt-5">
                                 #MakeItHappen
                                 </h2>
                             </div>
@@ -73,7 +90,7 @@ function HomePage() {
                 <p className="italic font-semibold text-xl hidden lg:block">#MakeItHappen</p>
             </section>
 
-            <section className="px-2 py-16 md:pt-40 relative" data-aos="fade-up">
+            <section className="px-2 py-16 md:pt-40 relative" data-aos="md:fade-up">
                 <div className="flex justify-evenly items-center">
                     {/* <div className="w-[30%] hidden lg:block" data-aos="zoom-in">
                         <div className="w-full my-5 ml-5">
@@ -91,14 +108,15 @@ function HomePage() {
                     <div className="w-full lg:w-[50%] flex-col items-center" data-aos="fade-up">
                         <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-">tentang kami</h1>
                         <div className="mb-2 lg:mb-5 md:text-lg"> 
-                            <h3 className="lg:text-justify text-center">Unit Kegiatan Mahasiswa Computer Club merupakan salah satu Unit Kegiatan Mahasiswa yang berada di lingkungan Politeknik Negeri Bali yang berfokus pada pengembangan keterampilan dan pengetahuan di bidang teknologi informasi. Sebagai wadah bagi mahasiswa yang memiliki minat dan bakat di bidang teknologi, UKM Computer Club berperan sebagai platform untuk mengasah pengetahuan dan keterampilan yang relevan di era digital. Dengan tujuan utama memberdayakan mahasiswa, UKM Computer Club menyediakan berbagai kesempatan bagi anggota untuk mengembangkan diri melalui berbagai program seperti pelatihan, kompetisi hingga project-project yang relevan dengan dunia digital.</h3>
+                            <h3 className="lg:text-justify text-center">Unit Kegiatan Mahasiswa Computer Club merupakan salah satu Unit Kegiatan Mahasiswa yang berada di lingkungan Politeknik Negeri Bali. Berfokus pada pengembangan keterampilan dan pengetahuan di bidang teknologi informasi, UKM Computer Club berperan sebagai wadah bagi mahasiswa untuk mengasah pengetahuan dan keterampilan yang relevan di era digital. Dengan tujuan utama memberdayakan mahasiswa, kami menyediakan berbagai kesempatan bagi anggota untuk mengembangkan diri melalui berbagai program seperti pelatihan, kompetisi hingga project-project yang relevan dengan dunia digital.</h3>
                         </div>
                     </div>
                 </div>
                 
-                {/* <div className="w-full lg:w-3/4 flex aspect-video m-auto relative">
-                    <YouTube videoId={homepage.videoYoutube} className="aspect-video absolute z-10 -translate-x-1/2 left-1/2 -top-1/4 w-full" opts={opts} onReady={onPlayerReady} iframeClassName="w-konten mx-auto h-full lg:rounded-2xl"/>
-                </div> */}¯
+                <div className="pt-16 md:pt-32 w-full flex aspect-video justify-center">
+                    <YouTube videoId={homepage.videoYoutube} className="aspect-video" opts={opts} onReady={onPlayerReady} iframeClassName="w-konten mx-auto h-full lg:rounded-2xl"/>
+                </div>
+
                 {/* <div className="w-full md:w-2/3 md:mx-auto rounded-2xl px-2 py-5 border-8 border-double border-putih bg-secondary relative">
                     <div className="mx-auto w-20 my-5">
                         <img src={imagesData.LOGO_UKM_PUTIH} className="w-full" loading="lazy"></img>
@@ -116,7 +134,7 @@ function HomePage() {
 
             <section className="pt-10 relative" id="divisi">
                 <div className="p-2 w-konten mx-auto" data-aos="fade-up">
-                    <h1 className="text-center font-semibold text-xl md:text-2xl mt-10 mb-2">Divisi UKM Computer Club</h1>
+                    <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mt-10 mb-2">Divisi UKM Computer Club</h1>
                     <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-1/2 md:mx-auto">Ada 4 divisi di Unit Kegitan Mahasiswa Computer Club yang merupakan pendalaman lebih khusus mengenai ketertarikan dan minat para mahasiswa.</p>
 
                     <div className="flex justify-center items-stretch flex-wrap lg:w-3/4 mx-auto">
@@ -130,7 +148,7 @@ function HomePage() {
 
             <section className="md:pt-10 realtive" id="proker">
                 <div className="p-2" data-aos="fade-up">
-                    <h1 className="text-center font-semibold text-xl md:text-2xl mt-10 mb-2">Program Kerja</h1>
+                    <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mt-10 mb-2">Program Kerja</h1>
                     <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Ada 3 program kerja di Unit Kegitan Mahasiswa Computer Club yang bergerak dalam bidang IT.</p>
 
                     <div className="flex p-2 justify-center items-stretch mx-auto flex-wrap">
@@ -188,7 +206,7 @@ function HomePage() {
                                         </svg>
                                     </button>
     
-                                     <div className={`px-4 pb-5 sm:px-6 sm:pb-6 ${openQuestion === Data.id ? 'block' : 'hidden'}`}>
+                                    <div className={`px-4 pb-5 sm:px-6 sm:pb-6 ${openQuestion === Data.id ? 'block' : 'hidden'}`}>
                                         <div className="text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: Data.answer }} />
                                     </div>
                                 </div>
