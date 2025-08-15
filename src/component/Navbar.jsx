@@ -45,7 +45,7 @@ function Navbar(){
                     <i className="fa-solid fa-bars"></i>
                 </button>
                 <div className="menu hidden w-full md:block md:w-auto" id="menu">
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-hitam">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-hitam">
                         <li className='m-1 p-1'>
                             <a href="/#beranda" className="NavbarLink" aria-current="page">Beranda</a>
                         </li>
@@ -62,7 +62,10 @@ function Navbar(){
                             <a href="/#fungsio" className="NavbarLink">Fungsionaris</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-secondary hover:bg-primary py-2 px-3 rounded-lg text-white" target='_blank'>Daftar Sekarang</a>
+                            <a href="/#faq" className="NavbarLink">FAQ</a>
+                        </li>
+                        <li className='m-1 p-1'>
+                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-secondary hover:bg-primary py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank'>Daftar Sekarang</a>
                         </li>
                     </ul>
                 </div>

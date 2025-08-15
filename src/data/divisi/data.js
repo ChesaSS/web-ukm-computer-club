@@ -5,9 +5,14 @@ const divisiData = [
     {
         id: 1,
         img: imagesData.cover_divisi_office,
-        singkatan: "office", 
+        singkatan: "office",
         divisi: "Office",
         deskripsi: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office dan Google Workspace.",
+        rekomendasi: `
+            <b>Jurusan Rekomendasi :</b><br>
+            • Administrasi Bisnis <br>
+            • Pariwisata <br>
+            • Akuntansi`,
         href: "/divisi/office",
         imgCover: imagesData.cover_divisi_office,
         deskripsiKegiatan: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office seperti Word, Excel, PowerPoint, dan Access serta aplikasi perkantoran berbasis web dari Google Workspace diantaranya Google Docs, Google Sheets, dan Google Slides.",

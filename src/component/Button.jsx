@@ -1,7 +1,7 @@
 function Button(porps){
     const {href, text, divClass ="", variant = "primary", target = ""} = porps;
     const variants = {
-        primary: "py-2 px-4 bg-primary rounded-md my-2 text-white hover:bg-hover-blue ease-in-out transition-all",
+        primary: "py-2 px-4 font-bold bg-secondary rounded-md my-2 text-white hover:bg-primary ease-in-out transition-all",
         secondary: "px-8 py-4 bg-gray-800 rounded-3xl mb-5 font-medium text-white hover:bg-hover-gray-600 ease-in-out transition-all",
     }
     return(

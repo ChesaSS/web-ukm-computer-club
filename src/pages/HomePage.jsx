@@ -56,14 +56,15 @@ function HomePage() {
                                 </div>
                                 <h2 className="text-primary font-semibold italic text-lg lg:text-left text-center mt-2 lg:mt-5">#MakeItHappen</h2>
                             </div> */}
-                            <div className="flex flex-col w-full lg:w-[70%] justify-center items-center text-center" data-aos="fade-up">
-                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold">unit kegiatan mahasiswa</h1>
-                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold">computer club</h1>
-                                <div className="mb-2 lg:mb-5 text-xs md:text-lg">
-                                <h3>Selamat Datang di Dunia Penuh Inovasi dan Kerja Sama</h3>
-                                <h3>Inspirasi Mahasiswa di Politeknik Negeri Bali</h3>
+                            <div className="flex flex-col w-full lg:w-[70%] justify-center items-center text-center">
+                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold" data-aos="fade-up" data-aos-delay="300">unit kegiatan mahasiswa</h1>
+                                <h1 className="uppercase text-sm md:text-4xl lg:text-6xl font-semibold" data-aos="fade-up" data-aos-delay="300">computer club</h1>
+                                <div className="mb-2 lg:mb-5 text-xs md:text-lg" data-aos="fade-up" data-aos-delay="400">
+                                    <h3>Selamat Datang di Dunia Penuh Inovasi dan Kerja Sama</h3>
+                                    <h3>Inspirasi Mahasiswa di Politeknik Negeri Bali</h3>
                                 </div>
-                                <h2 className="text-white font-semibold italic text-sm md:text-2xl mt-2 lg:mt-5">
+                                <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="font-medium bg-secondary hover:bg-primary text-sm md:text-lg py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank' data-aos="fade-up" data-aos-delay="600">Daftar Sekarang</a>
+                                <h2 className="text-white font-semibold italic text-sm md:text-2xl mt-2 lg:mt-5" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear" data-aos-delay="600">
                                 #MakeItHappen
                                 </h2>
                             </div>
@@ -106,7 +107,7 @@ function HomePage() {
                         </div>
                     </div>
                     <div className="w-full lg:w-[50%] flex-col items-center" data-aos="fade-up">
-                        <h1 className="uppercase text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-">tentang kami</h1>
+                        <h1 className="text-center text-xl md:text-4xl lg:text-left lg:text-6xl font-semibold mb-">Tentang Kami</h1>
                         <div className="mb-2 lg:mb-5 md:text-lg"> 
                             <h3 className="lg:text-justify text-center">Unit Kegiatan Mahasiswa Computer Club merupakan salah satu Unit Kegiatan Mahasiswa yang berada di lingkungan Politeknik Negeri Bali. Berfokus pada pengembangan keterampilan dan pengetahuan di bidang teknologi informasi, UKM Computer Club berperan sebagai wadah bagi mahasiswa untuk mengasah pengetahuan dan keterampilan yang relevan di era digital. Dengan tujuan utama memberdayakan mahasiswa, kami menyediakan berbagai kesempatan bagi anggota untuk mengembangkan diri melalui berbagai program seperti pelatihan, kompetisi hingga project-project yang relevan dengan dunia digital.</h3>
                         </div>
@@ -133,25 +134,27 @@ function HomePage() {
             </section>
 
             <section className="pt-10 relative" id="divisi">
-                <div className="p-2 w-konten mx-auto" data-aos="fade-up">
+                <div className="w-konten mx-auto" data-aos="fade-up">
                     <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mt-10 mb-2">Divisi UKM Computer Club</h1>
                     <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-1/2 md:mx-auto">Ada 4 divisi di Unit Kegitan Mahasiswa Computer Club yang merupakan pendalaman lebih khusus mengenai ketertarikan dan minat para mahasiswa.</p>
 
-                    <div className="flex justify-center items-stretch flex-wrap lg:w-3/4 mx-auto">
+                    <div className="lg:w-full">
                         {divisiData.map((Data) =>(
-                            <Card key={Data.id} img={Data.img} divisi ={Data.divisi} deskripsi={Data.deskripsi} href={Data.href}
+                            <Card key={Data.id} img={Data.img} divisi ={Data.divisi} deskripsi={Data.deskripsi} href={Data.href} singkatan={Data.singkatan} rekomendasi={Data.rekomendasi }
                             />
                         ))}
                     </div>
                 </div>
             </section>
 
-            <section className="md:pt-10 realtive" id="proker">
-                <div className="p-2" data-aos="fade-up">
-                    <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mt-10 mb-2">Program Kerja</h1>
-                    <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Ada 3 program kerja di Unit Kegitan Mahasiswa Computer Club yang bergerak dalam bidang IT.</p>
+            <section className="md:pt-10 mt-10 realtive" id="proker">
+                <div className="p-2 bg-hitam py-10">
+                    <div className="text-putih" data-aos="fade-up">
+                        <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mb-2">Program Kerja</h1>
+                        <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Ada 3 program kerja di Unit Kegitan Mahasiswa Computer Club yang bergerak dalam bidang IT.</p>
+                    </div>
 
-                    <div className="flex p-2 justify-center items-stretch mx-auto flex-wrap">
+                    <div className="flex p-2 justify-center items-stretch mx-auto flex-wrap" data-aos="zoom-in">
                         {prokerData.map((Data) =>(
                             <CardProker key={Data.id} logo={Data.logo} img={Data.img} divisi ={Data.name} deskripsi={Data.deskripsi} href={Data.href}
                             />
@@ -160,11 +163,11 @@ function HomePage() {
                 </div>
             </section>
 
-            <section className="pt-24 md:pt-56 md:pb-16" id="fungsio">
+            <section className="py-16 md:py-32" id="fungsio">
                 <div className="w-konten mx-auto relative z-10">
-                    <div className="lg:flex lg:justify-between items-center" data-aos="zoom-in">
+                    <div className="lg:flex lg:justify-between items-center">
                         <div className="w-full lg:hidden block">
-                            <div className="w-full my-5">
+                            <div className="w-full my-5" data-aos="zoom-in">
                                 <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1" loading="lazy"></img>
                             </div>
                         </div>
@@ -177,22 +180,25 @@ function HomePage() {
                             <Button divClass="flex justify-center lg:inline" href="/fungsionaris" text="Lihat Selengkapnya"></Button>
                         </div>
 
-                        <div className="w-[46%] hidden lg:block">
+                        <div className="w-[30%] mr-16 hidden lg:block">
                             <div className="w-full my-5 ml-5"  data-aos="zoom-in">
-                                <img src={imagesData.bersama2} className="w-full rounded-md" alt="Foto 1" loading="lazy"></img>
+                                <div className="w-full my-5 ml-5">
+                                    <img src={imagesData.bersama} className="w-full rounded-md -rotate-3" alt="Foto 1"></img>
+                                </div>
+                                <div className="w-full relative -left-12 top-3 mb-5">
+                                    <img src={imagesData.bersama2} className="w-full rounded-md rotate-3" alt="Foto 2"></img>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="py-20 md:pt-32 md:pb-20">
+            <section className="py-20 md:pt-32 md:pb-20" id="faq">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 w-konten" data-aos="fade-up">
                     <div className="mx-auto text-center">
-                        <h2 className="font-semibold text-xl md:text-2xl text-black">
-                            Pertanyaan yang sering ditanyakan
-                        </h2>
-                        <p className="mb-5">Yuk cek, siapa tau pertanyaan kamu ada disini 😊</p>
+                        <h1 className="text-center font-semibold text-xl md:text-4xl lg:text-6xl mt-10 mb-2">Pertanyaan yang Sering Ditanyakan</h1>
+                        <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:mx-auto">Yuk cek, siapa tau pertanyaan kamu ada disini 😊</p>
                     </div>
     
                     <div className="w-full lg:w-konten mx-auto lg:flex justify-between">    
