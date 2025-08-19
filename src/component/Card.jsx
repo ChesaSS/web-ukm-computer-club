@@ -19,20 +19,20 @@ function Card(props) {
         //     </div>
         // </div>
         <div data-aos="zoom-in">
-            <div className="w-3/5 hover:scale-105 transition-all my-10 mx-auto" id={`${singkatan}`}>
-                <div className="w-full h-96 flex flex-col justify-between z-10 bg-center bg-cover p-8 rounded-xl text-putih" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${img})` }}>
+            <div className="w-full sm:w-3/5 hover:scale-105 transition-all my-10 mx-auto" id={`${singkatan}`}>
+                <div className="w-full sm:h-96 flex flex-col justify-between z-10 bg-center bg-cover p-4 sm:p-8 rounded-xl text-putih" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${img})` }}>
                     <div>
                         <div className="flex justify-between">
-                            <div className="w-full">
-                                <h3 className="font-semibold mt-3 text-4xl">{divisi}</h3>
+                            <div className="w-full flex flex-col justify-center">
+                                <h3 className="font-semibold text-xl sm:text-4xl">{divisi}</h3>
                                 <hr className="w-1/2"/>
                             </div>
-                            <img src={`${logo}`} className="md:h-14 h-12 items-end" alt="logo UKM CC"/>
+                            <img src={`${logo}`} className="sm:h-14 h-12 ml-[2%] items-end" alt="logo UKM CC"/>
                         </div>
-                        <p className="text-md w-3/5 my-5">{deskripsi}</p>
+                        <p className="text-sm w-full sm:w-3/5 my-5">{deskripsi}</p>
                     </div>
                     <div>
-                        <p className="text-md w-1/2 mb-5" dangerouslySetInnerHTML={{ __html: rekomendasi }}></p>
+                        <p className="text-sm w-full sm:w-1/2 mb-5" dangerouslySetInnerHTML={{ __html: rekomendasi }}></p>
                         <Button divClass="flex justify-end" href={`${href}`} text="Baca Selengkapnya"/>
                     </div>
                 </div>

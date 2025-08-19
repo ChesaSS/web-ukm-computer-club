@@ -1,5 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import prokerData from "../../data/proker/data";
+import Dokumentasi from "../../component/Dokumentasi";
 import YouTube from "react-youtube";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -87,7 +88,7 @@ function ProkerPage() {
                         <h1 className="text-center font-bold text-xl md:text-6xl md:w-3/5 m-auto mb-10">Beberapa Dokumentasi {prokerDetail.name} {prokerDetail.periode}</h1>
                         <p className="text-center font-normal text-sm md:text-base w-full md:w-3/5 md:mx-auto">{prokerDetail.deskripsiDokumentasi}</p>
                     </div>
-                    <div className="p-2 w-konten mx-auto flex flex-wrap justify-center">
+                    {/* <div className="p-2 w-konten mx-auto flex flex-wrap justify-center">
                         {
                             prokerDetail.dokumentasi.map((item, index) => (
                                 <div key={index} className="w-96 m-1" data-aos="fade-up">
@@ -95,6 +96,9 @@ function ProkerPage() {
                                 </div>
                             ))
                         }
+                    </div> */}
+                    <div className="lg:w-full">
+                        <Dokumentasi image1={prokerDetail.dokumentasi1.path} alt1={prokerDetail.dokumentasi1.alt} image2={prokerDetail.dokumentasi2.path} alt2={prokerDetail.dokumentasi2.alt} image3={prokerDetail.dokumentasi3.path} alt3={prokerDetail.dokumentasi3.alt} image4={prokerDetail.dokumentasi4.path} alt4={prokerDetail.dokumentasi4.alt} image5={prokerDetail.dokumentasi5.path} alt5={prokerDetail.dokumentasi5.alt} image6={prokerDetail.dokumentasi6.path} alt6={prokerDetail.dokumentasi6.alt} image7={prokerDetail.dokumentasi7.path} alt7={prokerDetail.dokumentasi7.alt} image8={prokerDetail.dokumentasi8.path} alt8={prokerDetail.dokumentasi8.alt} image9={prokerDetail.dokumentasi9.path} alt9={prokerDetail.dokumentasi9.alt}/>
                     </div>
                 </section>
             </div>

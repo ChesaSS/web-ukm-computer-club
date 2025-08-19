@@ -85,7 +85,7 @@ function Footer(){
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
 
         <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-white sm:text-center">© 2024 <span>UKM Computer Club</span>.</span>
+            <span className="text-sm text-white sm:text-center">© 2025 <span>UKM Computer Club</span>.</span>
 
             <div className="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="https://www.instagram.com/ukmcomputerclub?igsh=cWRwcmYzZjUyOHgw" target="_blank" className="text-white hover:text-primary">

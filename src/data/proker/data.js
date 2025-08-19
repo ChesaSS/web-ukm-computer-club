@@ -49,45 +49,43 @@ const prokerData = [
                 text: "Total Sponsorship",
             },
         ],
-        deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia atau dari peserta.",
-        dokumentasi: [
-            {
+        deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia dan peserta.",
+        dokumentasi1: {
                 path: imagesData.ccdt_foto_dokum1,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi2: {
                 path: imagesData.ccdt_foto_dokum2,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi3: {
                 path: imagesData.ccdt_foto_dokum3,
                 alt: "Dokumentasi",
             },
-            {
-                path: imagesData.ccdt_foto_dokum9,
-                alt: "Dokumentasi",
-            },
-            {
+        dokumentasi4: {
                 path: imagesData.ccdt_foto_dokum4,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi5: {
                 path: imagesData.ccdt_foto_dokum5,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi6: {
                 path: imagesData.ccdt_foto_dokum6,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi7: {
                 path: imagesData.ccdt_foto_dokum7,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi8: {
                 path: imagesData.ccdt_foto_dokum8,
                 alt: "Dokumentasi",
             },
-        ],
+        dokumentasi9: {
+                path: imagesData.ccdt_foto_dokum9,
+                alt: "Dokumentasi",
+            },
     },
     {
         id: 2,
@@ -137,48 +135,46 @@ const prokerData = [
             },
         ],
         deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia atau dari peserta.",
-        dokumentasi: [
-            {
+        dokumentasi1: {
                 path: imagesData.intech_foto_dokum1,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi2: {
                 path: imagesData.intech_foto_dokum2,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi3: {
                 path: imagesData.intech_foto_dokum3,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi4: {
                 path: imagesData.intech_foto_dokum4,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi5: {
                 path: imagesData.intech_foto_dokum5,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi6: {
                 path: imagesData.intech_foto_dokum6,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi7: {
                 path: imagesData.intech_foto_dokum7,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi8: {
                 path: imagesData.intech_foto_dokum8,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi9: {
                 path: imagesData.intech_foto_dokum9,
                 alt: "Dokumentasi",
             },
-        ],
     },
     {
         id: 3,
-        logo: imagesData.Logo_Eagles_warna,  
+        logo: imagesData.Logo_Eagles_hitam,  
         img: imagesData.eagles_foto, 
         name: "EAGLES",
         deskripsi: "PNB E-Sport Arena Gaming League Series (EAGLES) merupakan program kerja UKM Computer Club yang mewadahi minat dan bakat mahasiswa di bidang E-Sport melalui turnamen dan seminar nasional bertema E-Sport.",
@@ -216,44 +212,42 @@ const prokerData = [
             },
         ],
         deskripsiDokumentasi: "Berikut merupakan beberapa dokumentasi baik dari POV panitia atau dari peserta.",
-        dokumentasi: [
-            {
+        dokumentasi1: {
                 path: imagesData.eagles_foto_dokum1,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi2: {
                 path: imagesData.eagles_foto_dokum2,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi3: {
                 path: imagesData.eagles_foto_dokum3,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi4: {
                 path: imagesData.eagles_foto_dokum4,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi5: {
                 path: imagesData.eagles_foto_dokum5,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi6: {
                 path: imagesData.eagles_foto_dokum6,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi7: {
                 path: imagesData.eagles_foto_dokum7,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi8: {
                 path: imagesData.eagles_foto_dokum8,
                 alt: "Dokumentasi",
             },
-            {
+        dokumentasi9: {
                 path: imagesData.eagles_foto_dokum9,
                 alt: "Dokumentasi",
             },
-        ],
     },
 ]
 

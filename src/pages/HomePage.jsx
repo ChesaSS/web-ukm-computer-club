@@ -103,7 +103,7 @@ function HomePage() {
                     </div> */}
                     <div className="w-[20%] hidden lg:block" data-aos="zoom-in">
                         <div className="w-full my-5 ml-5">
-                            <img src={imagesData.LOGO_UKM_HITAM} className="w-full" alt="Foto 1"></img>
+                            <img src={imagesData.LOGO_UKM_BERWARNA} className="w-full" alt="Foto 1"></img>
                         </div>
                     </div>
                     <div className="w-full lg:w-[50%] flex-col items-center" data-aos="fade-up">

@@ -12,7 +12,7 @@ function CardFungsio(props){
                     />
                 </div>
 
-                <div className="absolute inset-0 h-full w-full rounded-xl bg-secondary px-2 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="absolute inset-0 h-full w-full rounded-xl bg-hitam px-2 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div className="flex flex-col min-h-full w-full items-center justify-center">
                         <h1 className="text-2xl font-bold">{nama}</h1>
                         <div className="flex items-center my-4">
