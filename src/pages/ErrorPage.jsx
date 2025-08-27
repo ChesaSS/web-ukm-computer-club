@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function ErrorPage(){
 
     return (
-        <div className="min-h-screen flex max-md:flex-col items-center justify-center w-10/12 m-auto">
+    <div className="min-h-screen flex max-md:flex-col items-center justify-center w-10/12 m-auto">
         <div className="flex md:w-1/2 p-8">
             <FontAwesomeIcon icon={faWarning} size="10x" className="text-secondary m-auto" />
         </div>

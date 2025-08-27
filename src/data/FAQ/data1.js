@@ -1,43 +1,43 @@
 const data1 = [
     {
         id: 15,
-        question: 'Bagaimana cara bergabung dengan UKM Computer Club?',
-        answer: 'Untuk bergabung, Anda dapat mengikuti prosedur pendaftaran yang diumumkan oleh panitia PKKMB. Pastikan untuk mengikuti panduan pendaftaran yang diumumkan tepat waktu dan sesuai kriteria.',
+        question: 'Apa itu UKM Computer Club?',
+        answer: 'UKM Computer Club merupakan salah satu Unit Kegiatan Mahasiswa di Politeknik Negeri Bali yang bertujuan untuk mewadahi mahasiswa yang memiliki minat dan bakat di bidang teknologi informasi.',
     },
     {
         id: 1,
-        question: 'Kapan hari pertemuan klub ini diadakan?',
-        answer: 'Setiap pertemuan diadakan pada hari Minggu',
+        question: 'Dalam UKM Computer Club terdapat divisi apa saja?',
+        answer: 'Terdapat 4 divisi yang dapat dipilih yaitu, Office, Web Development, Visual Communication Design, dan Game Development.',
     },
     {
         id: 2,
-        question: 'Apakah ada sarana komunikasi untuk anggota klub?',
-        answer: 'Ya, kami menggunakan grup WhatsApp sebagai sarana komunikasi utama antara anggota klub. Ini akan memudahkan informasi terbaru, pengumuman, dan koordinasi kegiatan',
+        question: 'Divisi Office akan mempelajari apa saja?',
+        answer: 'Divisi Office berfokus pada pembelajaran seputar dunia perkantoran, dari aplikasi Microsoft Office seperti Excel, Word, Power Point dan Acces, selain itu kalian akan diajak untuk mengasah keterampilan komunikasi dalam presentasi, serta berbagai skill pendukung lainnya yang bermanfaat untuk perkuliahan maupun dunia kerja.',
     },
     {
         id: 3,
-        question: 'Apakah ada persyaratan khusus untuk bergabung dengan UKM Computer Club?',
-        answer: 'Umumnya, tidak ada persyaratan khusus yang rumit. Semua mahasiswa yang memiliki minat dalam teknologi, desain, atau pengembangan permainan dapat bergabung dengan UKM Computer Club.',
+        question: 'Divisi Web Development akan mempelajari apa saja?',
+        answer: 'Divisi Web Development berfokus pada pembelajaran seputar pembuatan dan pengembangan tampilan website yang menggunakan baris kode dengan markup language seperti HTML, CSS, serta teknologi pendukung lainnya.',
     },
     {
         id: 4,
-        question: 'Apakah saya harus ahli dalam penggunaan komputer untuk bergabung?',
-        answer: 'Tidak, tidak perlu menjadi ahli dalam penggunaan komputer. Klub ini terbuka untuk semua tingkat keahlian, baik pemula maupun mahir. Kami mendorong semua anggota untuk belajar bersama.',
+        question: 'Divisi Game Development mempelajari apa saja?',
+        answer: 'Divisi Game Development berfokus pada pembelajaran seputar pembuatan dan pengembangan game, dimulai dari tahap dasar hingga menghasilkan game yang benar-benar dapat dimainkan. Divisi ini juga mengadakan minggu mabar, yang merupakan kegiatan dimana para anggota Divisi Game Development dapat bermain game bersama.',
     },
     {
         id: 5,
-        question: 'Untuk sarana pendukung kegiatan apa saja yang harus disiapkan ya kak?',
-        answer: 'Untuk sarana pendukung saat kegiatan adalah laptop dan jika ada keperluan yang lain nanti pasti akan diinformasikan.',
+        question: 'Divisi Visual Communication Design mempelajari apa saja?',
+        answer: 'Divisi Visual Communication Design (VCD) berfokus pada pembelajaran desain, mulai dari pembuatan secara digital hingga penerapannya pada berbagai media cetak. Aplikasi yang digunakan sebagai media pembelajaran meliputi Adobe Photoshop hingga Figma.',
     },
     {
         id: 6,
-        question: 'Tetapi saya belum punya laptop kak, berarti saya tidak bisa masuk UKM itu ya?',
-        answer: 'Kami mendorong setiap anggota untuk mulai mempersiapkan laptop pribadi untuk digunakan dalam pertemuan dan kegiatan divisi. Karena Setiap divisi akan memanfaatkan laptop untuk keperluan seperti pengembangan perangkat lunak dan berbagai tugas lainnya yang mendukung proyek di masing-masing divisi.'
+        question: 'Apakah harus mengikuti 4 divisi yang ada di UKM Computer Club?',
+        answer: 'Tidak, cukup memilih dan mengikuti satu divisi yang paling sesuai dengan minat dan keahlian kalian.'
     },
     {
         id: 7,
-        question: 'Apakah untuk gabung perlu wawancara lagi?',
-        answer: 'Untuk gabung sebagai anggota tidak ada proses wawancara lagi ya.',
+        question: 'Apakah kita diperbolehkan untuk berpindah-pindah divisi?',
+        answer: 'Anggota tidak diperbolehkan untuk berpindah-pindah divisi. Oleh karena itu, penting untuk memilih divisi yang benar-benar sesuai dengan minat dan keinginan sejak awal bergabung.',
     },
 ];
 

@@ -35,7 +35,7 @@ const intiData = [
     },
     {
         id: 5,  
-        img: imagesData.chirstina, 
+        img: imagesData.christina, 
         nama: "Christina",
         ig: "chessadelano",
         link: "https://www.instagram.com/chessadelano?igsh=MWVsNDh1M2s1dHB2eg==",

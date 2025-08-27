@@ -37,15 +37,15 @@ const prokerData = [
         ],
         facts: [
             {
-                head: "297+",
+                head: "260+",
                 text: "Total Participants",
             },
             {
-                head: "52+",
+                head: "55+",
                 text: "Total Committee",
             },
             {
-                head: "19+",
+                head: "16+",
                 text: "Total Sponsorship",
             },
         ],
@@ -122,7 +122,7 @@ const prokerData = [
         ],
         facts: [
             {
-                head: "1.045+",
+                head: "1.304+",
                 text: "Total Participants",
             },
             {
@@ -130,7 +130,7 @@ const prokerData = [
                 text: "Total Committee",
             },
             {
-                head: "61+",
+                head: "86+",
                 text: "Total Partners",
             },
         ],
@@ -199,15 +199,15 @@ const prokerData = [
         ],
         facts: [
             {
-                head: "652+",
+                head: "625+",
                 text: "Total Participants",
             },
             {
-                head: "67+",
+                head: "63+",
                 text: "Total Committee",
             },
             {
-                head: "30+",
+                head: "55+",
                 text: "Total Partners",
             },
         ],

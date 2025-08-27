@@ -11,7 +11,7 @@ const VcdData = [
     },
     {
         id: 2,  
-        img: imagesData.ryan, 
+        img: imagesData.dekyan,
         nama: "Dek Yan",
         ig: "kadekryan_1",
         link: "https://www.instagram.com/kadekryan_1?igsh=ZGd5MWh2MjQyNXYz",
@@ -19,7 +19,7 @@ const VcdData = [
     },
     {
         id: 3,  
-        img: imagesData.ayunda, 
+        img: imagesData.ayunda,
         nama: "Ayunda",
         ig: "ayundaastitiani",
         link: "https://www.instagram.com/ayundaastitiani",
@@ -27,7 +27,7 @@ const VcdData = [
     },
     {
         id: 4,  
-        img: imagesData.nadwitya, 
+        img: imagesData.nadwitya,
         nama: "Nadwitya",
         ig: "unnaturalits",
         link: "https://www.instagram.com/unnaturalits/profilecard/?igsh=MTZkdGI3NHQ3MXV3MA==",
@@ -35,7 +35,7 @@ const VcdData = [
     },
     {
         id: 5,  
-        img: imagesData.sinta, 
+        img: imagesData.shinta, 
         nama: "Sinta",
         ig: "sinta0227",
         link: "https://www.instagram.com/sinta0227?igsh=MWl4amc0NWp4eHp3MA==",

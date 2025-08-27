@@ -16,21 +16,17 @@ function DivisiPage() {
 
                 <section className="py-8 md:pb-20 relative 2xl:h-screen">
                     <div className="relative">
-                        <div className="absolute inset-0 -z-10 from-black bg-gradient-to-r w-screen h-screen rounded-bl-[1rem] lg:rounded-bl-[3rem] rounded-br-[1rem] lg:rounded-br-[3rem]"/>
-                        <img src={divisiDetail.imgCover} className="w-full h-full object-cover absolute inset-0 -z-20 rounded-bl-[1rem] lg:rounded-bl-[3rem] rounded-br-[1rem] lg:rounded-br-[3rem]" loading="lazy"/>
-                        
-                        <div className="grid grid-cols-1 lg:grid-cols-2 m-auto border h-screen">
-                            <div className="kiri m-auto lg:ps-10 text-white flex flex-col justify-center items-center lg:justify-start lg:items-start gap-8" data-aos="fade-up">
-                                <div className="w-fit px-8 py-1 rounded-full border-2">
-                                    <h1 className="font-semibold w-1/2">Divisi</h1>
+                        <div className="w-full md:w-screen h-full md:h-screen bg-top justify-center items-center bg-fixed overflow-hidden bg-[length:120%]" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${divisiDetail.imgCover}` }}>
+                            <div className="h-full md:h-screen flex flex-col text-white justify-center items-center" data-aos="fade-up">
+                                <div className="px-8 py-1 my-8 rounded-full border-2">
+                                    <h1 className="font-semibold text-xl w-1/2">Divisi</h1>
                                 </div>
-                                <h1 className="font-bold text-3xl lg:text-6xl w-full lg:w-1/2 text-center lg:text-left">{divisiDetail.divisi}</h1>
-                                <p className="w-konten mx-auto text-center lg:text-left lg:w-full lg:mx-0">{divisiDetail.deskripsi}</p>
+                                <h1 className="font-bold text-3xl lg:text-6xl w-full lg:w-1/2 text-center mb-8">{divisiDetail.divisi}</h1>
                                 <Button variant="secondary" href="#materi" text="Pelajari Lebih Lanjut"/>
                             </div>
-                            <div className="kanan m-auto h-3/6 aspect-video relative hidden lg:block" data-aos="fade-up">
+                            {/* <div className="kanan m-auto h-3/6 aspect-video relative hidden lg:block" data-aos="fade-up">
                                 <img src={divisiDetail.img} className="absolute top-1/2 -translate-y-1/2 left-10 border-2 w-full rounded-ss-3xl rounded-es-3xl" loading="lazy"/>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -48,7 +44,7 @@ function DivisiPage() {
                         backgroundColor: "#1E1E1E",
                         }} >
                     </div>
-                    {/* carousel  */}
+                    
                     <div className="w-full absolute left-1/2 -translate-x-1/2 -top-80">
                         <CardCarousel data={divisiDetail.itemsKegiatan}/>
                     </div>

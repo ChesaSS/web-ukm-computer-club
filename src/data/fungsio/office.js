@@ -43,7 +43,7 @@ const OfficeData = [
     },
     {
         id: 6,  
-        img: imagesData.srimirayani, 
+        img: imagesData.sri, 
         nama: "Mang Sri",
         ig: "ksrmyy",
         link: "https://www.instagram.com/ksrmyy?igsh=anp3eWg0a3NsY2J4",

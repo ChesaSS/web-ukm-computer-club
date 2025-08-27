@@ -23,9 +23,9 @@ import _web_dokumen1 from '../../src/assets/img/divisi/web/dokumen1.jpg'
 import _web_dokumen2 from '../../src/assets/img/divisi/web/dokumen2.jpeg'
 import _web_dokumen3 from '../../src/assets/img/divisi/web/dokumen3.jpeg'
 import _web_dokumen4 from '../../src/assets/img/divisi/web/dokumen4.jpeg'
-import _ft_bersama from '../../src/assets/img/fungsionaris/ft bersama.png'
 import _bersama from '../../src/assets/img/hero/bersama.jpg'
 import _bersama2 from '../../src/assets/img/hero/bersama2.jpg'
+import _foto_bersama from '../../src/assets/img/hero/foto bersama.jpg'
 import _Logo_ccdt from '../../src/assets/img/logo/Logo ccdt.png'
 import _logo_intech from '../../src/assets/img/logo/logo intech.png'
 import _LOGO_PNB from '../../src/assets/img/logo/logo_pnb.png'
@@ -39,6 +39,7 @@ import _gelombang_biru from '../../src/assets/img/ornamen/gelombang biru.png'
 import _gelombang_ungu from '../../src/assets/img/ornamen/gelombang ungu.png'
 import _icon_texture from '../../src/assets/img/ornamen/icon texture.png'
 import _teksture_1 from '../../src/assets/img/ornamen/teksture 1.png'
+import _tagline from '../../src/assets/img/ornamen/tagline.png'
 import _ccdt_foto from '../../src/assets/img/proker/ccdt/ccdt_foto.jpeg'
 import _ccdt_foto_dokum1 from '../../src/assets/img/proker/ccdt/dokumen1.jpg'
 import _ccdt_foto_dokum2 from '../../src/assets/img/proker/ccdt/dokumen2.jpg'
@@ -71,44 +72,41 @@ import _intech_foto_dokum8 from '../../src/assets/img/proker/intech/dokumen8.jpg
 import _intech_foto_dokum9 from '../../src/assets/img/proker/intech/dokumen9.jpg'
 
 // fungsionaris
-import _ayudiah from "../../src/assets/img/fungsionaris/perorang/INTI/Diah.png"
-import _mariani from "../../src/assets/img/fungsionaris/perorang/INTI/Mariani.png"
-import _sastie from "../../src/assets/img/fungsionaris/perorang/INTI/Shastie.png"
-import _artani from "../../src/assets/img/fungsionaris/perorang/INTI/Artani.png"
-import _listya from "../../src/assets/img/fungsionaris/perorang/INTI/Listya.png"
-import _chirstina from "../../src/assets/img/fungsionaris/perorang/INTI/Cristina.png"
+import _artani from "../../src/assets/img/fungsionaris/perorang/INTI/Artani.jpg"
+import _oka from "../../src/assets/img/fungsionaris/perorang/INTI/Oka.jpg"
+import _christina from "../../src/assets/img/fungsionaris/perorang/INTI/Christina.jpg"
+import _tugus from "../../src/assets/img/fungsionaris/perorang/INTI/Tugus.jpg"
+import _ria from "../../src/assets/img/fungsionaris/perorang/INTI/Ria.jpg"
+import _efanie from "../../src/assets/img/fungsionaris/perorang/INTI/Efanie.jpg"
 
-import _tasya from "../../src/assets/img/fungsionaris/perorang/Game/Tasya.png"
-import _okris from "../../src/assets/img/fungsionaris/perorang/Game/Okhris.png"
-import _donny from "../../src/assets/img/fungsionaris/perorang/Game/Donny.png"
-import _darma from "../../src/assets/img/fungsionaris/perorang/Game/Dharma.png"
-import _indra from "../../src/assets/img/fungsionaris/perorang/Game/Indra.png"
-import _giri from "../../src/assets/img/fungsionaris/perorang/Game/Giri.png"
+import _indra from "../../src/assets/img/fungsionaris/perorang/Game/Indra.jpg"
+import _giri from "../../src/assets/img/fungsionaris/perorang/Game/Giri.jpg"
+import _bima from "../../src/assets/img/fungsionaris/perorang/Game/Bima.jpg"
+import _galuh from "../../src/assets/img/fungsionaris/perorang/Game/Gung Galuh.jpg"
 
-import _eka from "../../src/assets/img/fungsionaris/perorang/office/Eka.png"
-import _adit from "../../src/assets/img/fungsionaris/perorang/office/Adit.png"
-import _widyarini from "../../src/assets/img/fungsionaris/perorang/office/Widyarini.png"
-import _nia from "../../src/assets/img/fungsionaris/perorang/office/Niyaw.png"
-import _sri from "../../src/assets/img/fungsionaris/perorang/office/Sridewi.png"
-import _dhini from "../../src/assets/img/fungsionaris/perorang/office/Dhini.png"
-import _oka from "../../src/assets/img/fungsionaris/perorang/office/Oka.png"
-import _anggreni from "../../src/assets/img/fungsionaris/perorang/office/Anggreni.png"
-import _rani from "../../src/assets/img/fungsionaris/perorang/office/Rani.png"
-import _iluh from "../../src/assets/img/fungsionaris/perorang/office/Iluh.png"
+import _iluh from "../../src/assets/img/fungsionaris/perorang/office/Iluh.jpg"
+import _dhini from "../../src/assets/img/fungsionaris/perorang/office/Dhini.jpg"
+import _rani from "../../src/assets/img/fungsionaris/perorang/office/Rani.jpg"
+import _anggreni from "../../src/assets/img/fungsionaris/perorang/office/Anggreni.jpg"
+import _puji from "../../src/assets/img/fungsionaris/perorang/office/Puji.jpg"
+import _errin from "../../src/assets/img/fungsionaris/perorang/office/Errin.jpg"
+import _dewi from "../../src/assets/img/fungsionaris/perorang/office/Dewi.jpg"
+import _sri from "../../src/assets/img/fungsionaris/perorang/office/Sri Mirayani.jpg"
+import _mita from "../../src/assets/img/fungsionaris/perorang/office/Mitasari.jpg"
 
-import _ratna from "../../src/assets/img/fungsionaris/perorang/vcd/Ratna_.png"
-import _widyasari from "../../src/assets/img/fungsionaris/perorang/vcd/Widyasari.png"
-import _tirta from "../../src/assets/img/fungsionaris/perorang/vcd/Tirta.png"
-import _radit from "../../src/assets/img/fungsionaris/perorang/vcd/Radit.png"
-import _ryan from "../../src/assets/img/fungsionaris/perorang/vcd/Ryan.png"
-import _ayunda from "../../src/assets/img/fungsionaris/perorang/vcd/Ayunda.png"
+import _radit from "../../src/assets/img/fungsionaris/perorang/vcd/Raditya.jpg"
+import _dekyan from "../../src/assets/img/fungsionaris/perorang/vcd/Dekyan.jpg"
+import _ayunda from "../../src/assets/img/fungsionaris/perorang/vcd/Ayunda.jpg"
+import _aulia from "../../src/assets/img/fungsionaris/perorang/vcd/Aulia.jpg"
+import _nadwitya from "../../src/assets/img/fungsionaris/perorang/vcd/Nadwitya.jpg"
+import _shinta from "../../src/assets/img/fungsionaris/perorang/vcd/Shinta.jpg"
 
-import _shanti from "../../src/assets/img/fungsionaris/perorang/web/Shanti.png"
-import _willy from "../../src/assets/img/fungsionaris/perorang/web/Willy.png"
-import _fara from "../../src/assets/img/fungsionaris/perorang/web/Paraday.png"
-import _chesa from "../../src/assets/img/fungsionaris/perorang/web/Chesa.png"
-import _dimas from "../../src/assets/img/fungsionaris/perorang/web/Dimas.png"
-import _wahyuni from "../../src/assets/img/fungsionaris/perorang/web/Wahyuni.png"
+import _chesa from "../../src/assets/img/fungsionaris/perorang/web/Chesa.jpg"
+import _dimas from "../../src/assets/img/fungsionaris/perorang/web/Gung Dimas.jpg"
+import _wahyuni from "../../src/assets/img/fungsionaris/perorang/web/Wahyuni.jpg"
+import _ayu from "../../src/assets/img/fungsionaris/perorang/web/Ayu.jpg"
+import _santika from "../../src/assets/img/fungsionaris/perorang/web/Santika.jpg"
+import _pebrian from "../../src/assets/img/fungsionaris/perorang/web/Pebrian.jpg"
 
 const imagesData = 
 {
@@ -137,9 +135,9 @@ const imagesData =
     "web_dokumen2": _web_dokumen2,
     "web_dokumen3": _web_dokumen3,
     "web_dokumen4": _web_dokumen4,
-    "ft_bersama":_ft_bersama,
     "bersama": _bersama,
     "bersama2": _bersama2,
+    "_foto_bersama": _foto_bersama,
     "Logo_ccdt": _Logo_ccdt,
     "logo_intech": _logo_intech,
     "LOGO_PNB": _LOGO_PNB,
@@ -153,6 +151,7 @@ const imagesData =
     "gelombang_ungu": _gelombang_ungu,
     "icon_texture": _icon_texture,
     "teksture_1": _teksture_1,
+    "tagline": _tagline,
     "ccdt_foto": _ccdt_foto,
     "ccdt_foto_dokum1": _ccdt_foto_dokum1,
     "ccdt_foto_dokum2": _ccdt_foto_dokum2,
@@ -185,44 +184,41 @@ const imagesData =
     "intech_foto_dokum9": _intech_foto_dokum9,
 
     //fungsio
-    "diah":_ayudiah,
-    "mariani":_mariani,
-    "sastie":_sastie,
     "artani":_artani,
-    "listya":_listya,
-    "chirstina":_chirstina,
+    "oka":_oka,
+    "christina":_christina,
+    "tugus":_tugus,
+    "ria":_ria,
+    "efanie":_efanie,
 
-    "tasya":_tasya,
-    "okris":_okris,
-    "donny":_donny,
-    "darma":_darma,
     "indra":_indra,
     "giri":_giri,
+    "bima":_bima,
+    "galuh":_galuh,
 
-    "eka":_eka,
-    "adit":_adit,
-    "widyarini":_widyarini,
-    "nia":_nia,
-    "sri":_sri,
-    "dhini":_dhini,
-    "anggreni":_anggreni,
-    "oka":_oka,
-    "rani":_rani,
     "iluh":_iluh,
+    "dhini":_dhini,
+    "rani":_rani,
+    "anggreni":_anggreni,
+    "puji":_puji,
+    "errin":_errin,
+    "dewi":_dewi,
+    "sri":_sri,
+    "mita":_mita,
 
-    "ratna":_ratna,
-    "widyasari":_widyasari,
-    "tirta":_tirta,
     "radit":_radit,
-    "ryan":_ryan,
+    "dekyan":_dekyan,
     "ayunda":_ayunda,
+    "aulia":_aulia,
+    "nadwitya":_nadwitya,
+    "shinta":_shinta,
 
-    "shanti":_shanti,
-    "willy":_willy,
-    "fara":_fara,
     "chesa":_chesa,
     "dimas":_dimas,
     "wahyuni":_wahyuni,
+    "ayu":_ayu,
+    "santika":_santika,
+    "pebrian":_pebrian,
 }
 
 export default imagesData;

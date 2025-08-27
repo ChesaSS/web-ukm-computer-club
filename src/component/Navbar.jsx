@@ -70,7 +70,7 @@ function Navbar(){
                             </a>
 
                             {/* Dropdown Divisi */}
-                            <ul className="absolute -left-3 pt-2 hidden group-hover:block bg-hitam text-putih rounded-lg shadow-lg w-48">
+                            <ul className="absolute z-10 -left-3 pt-2 hidden group-hover:block bg-hitam text-putih rounded-lg shadow-lg w-48">
                                 <li>
                                 <NavLink to="/divisi/office" onClick={() => window.location.href = "/divisi/office"} className={({ isActive }) => `block px-4 py-2 rounded-lg cursor-pointer ${
                                     isActive ? "bg-secondary font-semibold" : "hover:bg-secondary"}`}>
@@ -108,7 +108,7 @@ function Navbar(){
                             </a>
 
                             {/* Dropdown Proker */}
-                            <ul className="absolute -left-3 pt-2 hidden group-hover:block bg-hitam text-putih rounded-lg shadow-lg w-48">
+                            <ul className="absolute z-10 -left-3 pt-2 hidden group-hover:block bg-hitam text-putih rounded-lg shadow-lg w-48">
                                 <li>
                                 <NavLink to="/programkerja/ccdt" onClick={() => window.location.href = "/programkerja/ccdt"} className={({ isActive }) => `flex px-4 py-2 rounded-lg cursor-pointer ${
                                     isActive ? "bg-secondary font-semibold" : "hover:bg-secondary"}`}>

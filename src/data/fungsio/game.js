@@ -12,14 +12,14 @@ const GameData = [
     {
         id: 2,  
         img: imagesData.indra, 
-        nama: "Inguss",
+        nama: "Indra",
         ig: "indrabguss",
         link: "https://www.instagram.com/indrabguss?igsh=MTFwNWpkdnB0OWtwcA==",
         moto: "Pop Mie kalo diseduh pake air es jadi Pop Ice?",
     },
     {
         id: 3,  
-        img: imagesData.Bima, 
+        img: imagesData.bima, 
         nama: "Bima",
         ig: "de_bimm",
         link: "https://www.instagram.com/de_bimm?igsh=MTdnOGN0NTBmbDZndg==",
@@ -27,7 +27,7 @@ const GameData = [
     },
     {
         id: 4,  
-        img: imagesData.Galuh, 
+        img: imagesData.galuh, 
         nama: "Gung Galuh",
         ig: "gung_galuh1",
         link: "https://www.instagram.com/gung_galuh1?igsh=NHVianh4bjQ5aXpv",

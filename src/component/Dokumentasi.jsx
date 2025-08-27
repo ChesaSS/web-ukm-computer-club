@@ -4,7 +4,7 @@ function Dokumentasi(props){
     return (
         <div className="w-konten mx-auto flex flex-wrap justify-center">
             <div className="w-konten flex flex-col md:flex-row justify-center items-center md:justify-between mb-[0.5%]" data-aos="zoom-in">
-                <div className="w-[66.5%] mb-1 md:mb-0">
+                <div className="w-[66.5%] h-full mb-1 md:mb-0">
                     <img src={`${image1}`} alt={`${alt1}`} className="w-full h-full object-cover rounded-md" />
                 </div>
                 <div className="w-[33%] h-full flex md:flex-col justify-center md:justify-between">
@@ -22,7 +22,7 @@ function Dokumentasi(props){
                     <img src={`${image7}`} alt={`${alt7}`} className="w-full object-cover rounded-md mx-[1%] md:mx-0" />
                     <img src={`${image8}`} alt={`${alt8}`} className="w-full object-cover rounded-md mx-[1%] md:mx-0" />
                 </div>
-                <div className="w-[66.5%]">
+                <div className="w-[66.5%] h-full">
                     <img src={`${image9}`} alt={`${alt9}`} className="w-full h-full object-cover rounded-md" />
                 </div>
             </div>

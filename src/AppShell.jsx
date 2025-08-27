@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import Navbar from './component/Navbar';
 import { Outlet } from 'react-router-dom';
 import Footer from './component/Footer';
+import Fab from './component/Fab';
 
 function AppShell() {
     useEffect(() => {
@@ -17,6 +18,7 @@ function AppShell() {
         <div className="overflow-x-hidden overflow-y-hidden relative">
             <Navbar/>
             <Outlet/>
+            <Fab/>
             <Footer/>
         </div>
     );

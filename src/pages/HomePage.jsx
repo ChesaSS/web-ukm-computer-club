@@ -39,7 +39,7 @@ function HomePage() {
             <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed"/>
 
             <section className="relative" id="beranda">
-                    <div className="py-8 mt-16 md:mt-0 w-full md:w-screen h-full md:h-screen z-10 bg-cover bg-center justify-center items-center" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../src/assets/img/hero/bersama2.jpg')" }}>
+                    <div className="py-8 mt-16 md:mt-0 w-full md:w-screen h-full md:h-screen bg-center justify-center items-center bg-fixed overflow-hidden bg-[length:120%]" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../src/assets/img/hero/foto bersama.jpg')" }}>
                         <div className="h-full md:h-screen flex text-white justify-center items-center">
 
                             {/* <div className="w-full md:w-3/4 mx-auto lg:hidden" data-aos="fade-down">

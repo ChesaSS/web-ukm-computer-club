@@ -1,44 +1,48 @@
 const data2 = [
     {
         id: 8,
-        question: 'Apa saja divisi yang tersedia dalam klub ini?',
-        answer: `Ada empat divisi yang dapat Anda pilih: <br>
+        question: 'Bagaimana cara agar dapat bergabung dengan UKM Computer Club?',
+        answer: `Cukup mudah untuk bergabung dengan UKM Computer Club<br>
         <ul>
-            <li>- <b>Visual Communication Design</b></li>
-            <li>- <b>Office</b></li>
-            <li>- <b>Web Development</b></li>
-            <li>- <b>Game Development</b></li>
+            <li><b>Tahap 1 =</b> Pastikan mengikuti panduan pendaftaran UKM yang akan diumumkan oleh panitia PKKMB
+            <li><b>Tahap 2 =</b> = Penuhi ketentuan dan persyaratan sesuai dengan alur pendaftaran yang UKM Computer Club berikan, pastikan tidak ada ketentuan yang terlewati!<br>
+            <br>
+            Jika terdapat kendala atau pertanyaan terkait alur pendaftaran dapat menghubungi :
+            <ul>
+                <li>Artani : +62 857-3745-0341
+                <li>Efanie : +62 895-4014-49925
+            <ul>
         </ul>`,
     },
     {
         id: 9,
-        question: 'Kegiatan di Divisi Office itu bakalan membahas apa ya?',
-        answer: 'Divisi Office, kita akan belajar berbagai aplikasi perkantoran dari Microsoft Office seperti Word, Excel, PowerPoint, dan Access. Selain itu, kita juga akan belajar aplikasi perkantoran berbasis web dari Google Workspace diantaranya Google Docs, Google Sheets, dan Google Slides. Kita akan belajar berbagai fitur dan fungsi yang disediakan dari masing-masing aplikasi yang tentunya dapat mendukung produktivitas dalam perkuliahan maupun di dunia kerja nantinya, mulai dari pengolahan data, pembuatan presentasi yang menarik, hingga pengelolaan database.',
+        question: 'Apa saja sarana pendukung untuk mengikuti UKM Computer Club?',
+        answer: 'Sarana pendukung yang digunakan saat UKM rutinan adalah laptop pribadi untuk keperluan pembelajaran, dan jika terdapat keperluan lain tentunya akan diinformasikan terlebih dahulu.',
     },
     {
         id: 10,
-        question: 'Kegiatan di Divisi Web Dev itu bakalan membahas apa ya?',
-        answer: 'Divisi Web Development kita akan belajar membuat atau mengembangkan tampilan sebuah website dengan mark-up language. Kita akan belajar HTML dan CSS dari dasar hingga bisa mempraktekkan membuat suatu tampilan website nantinya. ',
+        question: 'Berapa lama kita harus tergabung sebagai anggota di UKM Computer Club?',
+        answer: 'UKM Computer Club cukup diikuti selama 1 tahun saja.',
     },
     {
         id: 11,
-        question: 'Kegiatan di Divisi Game Dev itu bakalan membahas apa ya?',
-        answer: 'Divisi Game Development akan membahas tentang membuat game platformer 2D seperti super mario bros dengan menggunakan game engine berbasis website yaitu Construct 3. Divisi game development juga menawarkan acara mabar untuk sesama anggota divisi yang dilaksanakan selang-seling seminggu setelah belajar game development.',
+        question: 'Apakah kita sebagai anggota harus ahli untuk bisa bergabung ke dalam UKM Computer Club?',
+        answer: 'Tidak, untuk bergabung di UKM Computer Club tidak harus sudah ahli atau memiliki pengalaman sebelumnya. Justru di sinilah tempat yang tepat untuk belajar bersama, mengembangkan keterampilan, serta menambah pengalaman. UKM ini terbuka bagi siapa saja, mulai dari pemula hingga yang sudah mahir.',
     },
     {
         id: 12,
-        question: 'Bagaimana jika saya ingin berkontribusi dalam divisi (Game Development/ Web development/ Visual Communication Design/ Office) tanpa pengalaman sebelumnya?',
-        answer: 'Tidak masalah! Seluruh divisi kami dirancang untuk pemula dan mereka yang tertarik mempelajari dari dasar hingga ke level yang lebih advance. Bergabunglah dan bersama-sama kita akan belajar.',
+        question: 'Apakah ada syarat atau ketentuan khusus untuk bergabung ke UKM Computer Club?',
+        answer: 'Mahasiswa hanya perlu memiliki minat terkait teknologi informasi, desain, ataupun game dan mengikuti alur pendaftaran dengan baik agar dapat bergabung.',
     },
     {
         id: 13,
-        question: 'Bagaimana cara bergabung dengan salah satu divisi di UKM Computer Club?',
-        answer: 'Saat menjadi anggota UKM Computer Club, pada pertemuan perdana anda dapat memilih divisi yang sesuai dengan minat dan keterampilan Anda.',
+        question: 'Apakah untuk mengikuti UKM Computer Club harus melewati sesi wawancara?',
+        answer: 'Untuk mengikuti UKM Computer Club tidak ada sesi wawancara. Cukup dengan melakukan pendaftaran sesuai syarat dan ketentuan yang berlaku.',
     },
     {
         id: 14,
-        question: 'Untuk divisi komputer kan ada 4 (empat) divisi, apakah kita harus mengikuti keempat divisi?',
-        answer: 'Tidak, anggota memang diwajibkan hanya memilih 1 (satu) divisi saja agar nantinya bisa pembelajaran difokuskan ke 1 (satu) bidang yang dipilih.',
+        question: 'Bagaimana bentuk pelaksanaan UKM rutinan?',
+        answer: 'Pertemuan rutinan UKM Computer Club berbentuk pelatihan sesuai dengan divisi masing-masing, yang dilaksanakan secara offline di Gedung Lab Math DP Politeknik Negeri Bali pada hari Minggu.',
     },
 ];
 

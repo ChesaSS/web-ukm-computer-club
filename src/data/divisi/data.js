@@ -1,4 +1,5 @@
-import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { faBookOpen, faFontAwesome, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { faFigma, faGithub, faCss,  faHtml5, faInstagram, faPhoenixFramework } from '@fortawesome/free-brands-svg-icons';
 import imagesData from "../imgImports";
 
 const divisiData = [
@@ -7,16 +8,17 @@ const divisiData = [
         img: imagesData.cover_divisi_office,
         singkatan: "office",
         divisi: "Office",
-        deskripsi: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office dan Google Workspace.",
-        rekomendasi: `
-            <b>Jurusan Rekomendasi :</b><br>
+        deskripsi: "Divisi Office merupakan divisi yang berfokus mempelajari aplikasi perkantoran dari Microsoft Office hingga Google Workspace.",
+        rekomendasi: `<b>
+            Rekomendasi :</b><br>
+            • Akuntansi <br>
             • Administrasi Bisnis <br>
             • Pariwisata <br>
-            • Akuntansi`,
+            • Manajemen`,
         href: "/divisi/office",
         imgCover: imagesData.cover_divisi_office,
-        deskripsiKegiatan: "Mempelajari ilmu yang berkaitan dengan aplikasi perkantoran dari Microsoft Office seperti Word, Excel, PowerPoint, dan Access serta aplikasi perkantoran berbasis web dari Google Workspace diantaranya Google Docs, Google Sheets, dan Google Slides.",
-        deskripsiMateri: "Berfokus dalam mempelajari berbagai fitur dan fungsi pada aplikasi Microsoft Office dan Google Workspace serta bertujuan untuk membentuk soft skill dan hard skill anggota sebagai bekal untuk bekerja di dunia perkantoran.",
+        deskripsiKegiatan: "Divisi Office merupakan divisi yang berfokus pada pengembangan keterampilan penggunaan aplikasi perkantoran, baik berbasis desktop maupun cloud. Divisi ini menjadi wadah bagi anggota yang ingin menguasai tools digital yang sangat dibutuhkan di dunia kerja dan akademik.",
+        deskripsiMateri: "Berfokus dalam mempelajari berbagai fitur dan fungsi pada aplikasi Microsoft Office dan Google Workspace yang bertujuan untuk membentuk soft skill dan hard skill anggota sebagai bekal untuk bekerja di dunia perkantoran.",
         itemsKegiatan: [
             {
                 id: 1,
@@ -73,13 +75,19 @@ const divisiData = [
     {
         id: 2,
         img: imagesData.cover_divisi_vcd, 
-        singkatan: "vcd",
+        singkatan: "VCD",
         divisi: "Visual Communication Design",
-        deskripsi: "Mempelajari editing gambar serta desain digital sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
+        deskripsi: "Divisi Visual Communication Design (VCD)  merupakan divisi yang berfokus  mempelajari design, editing foto dan membuat desain tampilan antarmuka aplikasi website yang menarik.",
+        rekomendasi: `<b>
+            Rekomendasi :</b><br>
+            • Administrasi Bisnis <br>
+            • Bisnis Digital <br>
+            • Multimedia <br>
+            • DKV`,
         href: "/divisi/vcd",
         imgCover: imagesData.cover_divisi_vcd,
-        deskripsiKegiatan: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
-        deskripsiMateri: "Mempelajari editing gambar serta desain digital dari dasar sehingga mampu menghasilkan tampilan antarmuka sebuah aplikasi atau website.",
+        deskripsiKegiatan: "Divisi ini berfokus pada pengembangan keterampilan desain visual menggunakan software desain populer, baik untuk kebutuhan kreatif maupun profesional. Di sini, anggota akan belajar mengolah gambar, mengatur komposisi, hingga membuat desain UI/UX yang siap digunakan untuk website atau aplikasi.",
+        deskripsiMateri: "Berfokus dalam editing foto dan membuat desain tampilan antarmuka aplikasi atau website dengan tujuan menjadi designer yang bisa mengkomunikasikan ide - ide melalui media visual dan media cetak.",
         itemsKegiatan: [
             {
                 id: 1,
@@ -119,14 +127,14 @@ const divisiData = [
         ],
         itemsMateri: [
             {
-                icon: faBookOpen,
+                icon: faFontAwesome,
                 judul: "Adobe Photoshop",
                 deskripsi: "Adobe Photoshop merupakan software grafis berbasis raster (Bitmap), untuk mengedit, membuat gambar dan menyimpannya dengan berbagai format.",
             },
             {
-                icon: faBookOpen,
+                icon: faFigma,
                 judul: "Figma",
-                deskripsi: "Figma adalah tools desain berbasis cloud yang memungkinkan tim untuk bekerja bersama secara kolaboratif dalam satu lingkungan desain.",
+                deskripsi: "Figma merupakan tools desain berbasis cloud yang memungkinkan tim untuk bekerja bersama secara kolaboratif dalam satu lingkungan desain.",
             },
         ],
     },
@@ -135,11 +143,17 @@ const divisiData = [
         img: imagesData.cover_divisi_web, 
         singkatan: "web",
         divisi: "Web Development",
-        deskripsi: "Mempelajari cara membuat atau mengembangkan tampilan sebuah website dengan mark-up language.",
+        deskripsi: "Divisi Web Development merupakan divisi yang berfokus mempelajari cara membuat atau mengembangkan tampilan suatu website dengan mark-up language.",
+        rekomendasi: `<b>
+            Rekomendasi :</b><br>
+            • Teknologi Informasi <br>
+            • Teknik Elektro <br>
+            • Web Developer <br>
+            • Manajemen Informasi`,
         href: "/divisi/web",
         imgCover: imagesData.cover_divisi_web,
-        deskripsiKegiatan: "Berfokus pada pengembangan website, terutama Front-End Development, dan bertujuan mengajarkan keterampilan untuk merancang, mengembangkan, dan memelihara antarmuka pengguna (UI).",
-        deskripsiMateri: "Berfokus pada pengembangan website, terutama Front-End Development, dan bertujuan mengajarkan keterampilan untuk merancang, mengembangkan, dan memelihara antarmuka pengguna (UI).",
+        deskripsiKegiatan: "Divisi Web Development merupakan divisi yang berfokus pada pembelajaran dan pengembangan keterampilan dalam membangun tampilan serta struktur website. Kegiatan dalam divisi ini mencakup pemahaman dasar HTML dan CSS, hingga penerapan framework modern untuk menciptakan website yang rapi, responsif, dan estetis. Divisi ini dirancang untuk memberikan bekal keterampilan yang relevan di era digital, sekaligus membuka peluang dalam dunia teknologi dan industri kreatif.",
+        deskripsiMateri: "Berfokus pada pengembangan website, terutama Front End Developer dan bertujuan mengajarkan keterampilan untuk merancang, mengembangkan, dan memelihara antarmuka pengguna (UI).",
         itemsKegiatan: [
             {
                 id: 1,
@@ -179,17 +193,17 @@ const divisiData = [
         ],
         itemsMateri: [
             {
-                icon: faBookOpen,
+                icon: faHtml5,
                 judul: "HTML",
                 deskripsi: "HTML (Hypertext Markup Language) adalah bahasa standar yang digunakan untuk membuat dan menyusun halaman web. Dapat dikatakan bahwa HTML merupakan kerangka dari sebuah web.",
             },
             {
-                icon: faBookOpen,
+                icon: faCss,
                 judul: "CSS",
                 deskripsi: "CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk menentukan tampilan dan gaya elemen-elemen pada halaman web yang dibuat dengan HTML.",
             },
             {
-                icon: faBookOpen,
+                icon: faScrewdriverWrench,
                 judul: "Framework",
                 deskripsi: "Framework adalah kerangka kerja yang membantu dalam mempermudah membuat sebuah tampilan web. Framework yang diajarkan adalah framework CSS.",
             },
@@ -201,10 +215,16 @@ const divisiData = [
         singkatan: "game",
         divisi: "Game Development",
         deskripsi: "Mempelajari tentang membuat game platformer 2D dengan menggunakan game engine berbasis website yaitu Construct 3.",
+        rekomendasi: `<b>
+            Rekomendasi :</b><br>
+            • Pecinta E-Sports <br>
+            • Game Developer <br>
+            • Indie Developer <br>
+            • Tech Enthusiast`,
         href: "/divisi/game",
         imgCover: imagesData.cover_divisi_game,
-        deskripsiKegiatan: "Mempelajari tentang membuat game platformer 2D seperti super mario bros dengan menggunakan game engine berbasis website yaitu Construct 3 dan terdapat minggu mabar.",
-        deskripsiMateri: "Berfokus pada mempelajari pengembangan game berbasis 2D dengan menggunakan game engine berbasis website yaitu Construct 3 serta bertujuan untuk mempelajari logika dan kreativitas dalam pembuatan game.",
+        deskripsiKegiatan: "Divisi Game Development merupakan divisi yang berfokus pada pembuatan game platformer 2D, yang juga mewadahi minat anggota dalam memainkan berbagai game mobile seperti Mobile Legends, PUBG Mobile, dan lainnya.",
+        deskripsiMateri: "Berfokus pada pembuatan dan pengembangan game platformer 2D dengan menggunakan game engine berbasis website yang bertujuan mengembangkan suatu game hingga menjadi game developer.",
         itemsKegiatan: [
             {
                 id: 1,
@@ -251,7 +271,7 @@ const divisiData = [
             {
                 icon: faBookOpen,
                 judul: "Construct 3",
-                deskripsi: "Game engine berbasis website yang dirancang untuk mempermudah pembuatan game tanpa memerlukan kemampuan pemrograman yang mendalam.",
+                deskripsi: "Construct 3 merupakan software game engine berbasis visual yang digunakan untuk membuat game 2D tanpa perlu menulis kode secara langsung.",
             },
         ],
     },
