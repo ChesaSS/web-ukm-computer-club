@@ -48,7 +48,7 @@ function Card(props) {
                     
                     {/* Bagian Kiri (Image Background) */}
                     <div className="w-full lg:w-1/2 h-64 lg:h-full">
-                    <div className="w-full h-full flex flex-col justify-between z-10 bg-center bg-cover p-4 sm:p-8 text-putih" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${img})` }}></div>
+                    <div className="w-full h-full flex flex-col justify-between z-10 bg-center bg-cover p-4 sm:p-8 rounded-xl" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${img})` }}></div>
                     </div>
 
                     {/* Bagian Kanan (Content) */}

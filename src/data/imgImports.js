@@ -137,7 +137,7 @@ const imagesData =
     "web_dokumen4": _web_dokumen4,
     "bersama": _bersama,
     "bersama2": _bersama2,
-    "_foto_bersama": _foto_bersama,
+    "foto_bersama": _foto_bersama,
     "Logo_ccdt": _Logo_ccdt,
     "logo_intech": _logo_intech,
     "LOGO_PNB": _LOGO_PNB,

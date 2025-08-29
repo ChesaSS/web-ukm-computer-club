@@ -18,10 +18,11 @@ function DivisiPage() {
                     <div className="relative">
                         <div className="w-full md:w-screen h-full md:h-screen bg-top justify-center items-center bg-fixed overflow-hidden bg-[length:120%]" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${divisiDetail.imgCover}` }}>
                             <div className="h-full md:h-screen flex flex-col text-white justify-center items-center" data-aos="fade-up">
-                                <div className="px-8 py-1 my-8 rounded-full border-2">
-                                    <h1 className="font-semibold text-xl w-1/2">Divisi</h1>
+                                <div className="px-8 py-1 my-8">
+                                    <h1 className="font-semibold text-2xl w-1/2">Divisi</h1>
                                 </div>
                                 <h1 className="font-bold text-3xl lg:text-6xl w-full lg:w-1/2 text-center mb-8">{divisiDetail.divisi}</h1>
+                                <p className="text-center font-normal text-sm md:text-base mb-10 w-full md:w-1/2 md:mx-auto">{divisiDetail.deskripsi}</p>
                                 <Button variant="secondary" href="#materi" text="Pelajari Lebih Lanjut"/>
                             </div>
                             {/* <div className="kanan m-auto h-3/6 aspect-video relative hidden lg:block" data-aos="fade-up">

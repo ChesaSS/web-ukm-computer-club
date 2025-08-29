@@ -145,7 +145,7 @@ function Navbar(){
                             <a href="/#faq" className="NavbarLink">FAQ</a>
                         </li>
                         <li className='m-1 p-1'>
-                            <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="bg-secondary hover:bg-primary py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank'>Daftar Sekarang</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoupO5ST_r2kXdSq9W7658ZO8XkFGbw1WnLydVOieJLlKiGA/viewform" className="bg-secondary hover:bg-primary py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank'>Daftar Sekarang</a>
                         </li>
                     </ul>
                 </div>

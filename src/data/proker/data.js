@@ -96,7 +96,7 @@ const prokerData = [
         href: "/programkerja/intechfest",
         singkatan: "intechfest",
         periode: "Tahun 2024",
-        videoYoutube: "w5Mc3Q3MZFs",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
+        videoYoutube: "_wKZlxsPXiE",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
         deskripsiDetail: `
         Information and Technology Festival (IntechFest)  merupakan salah satu program kerja utama dari Unit Kegiatan Mahasiswa Computer Club yang diselenggarakan sebagai bentuk kontribusi nyata dalam mendukung pemahaman dan perkembangan teknologi informasi. Kegiatan ini hadir sebagai ajang edukatif, kompetitif, dan inspiratif yang membuka ruang bagi peserta untuk belajar, berkompetisi, serta menggali potensi diri dalam bidang teknologi informasi.<br>
         <br>
@@ -174,14 +174,14 @@ const prokerData = [
     },
     {
         id: 3,
-        logo: imagesData.Logo_Eagles_hitam,  
+        logo: imagesData.Logo_Eagles_warna,
         img: imagesData.eagles_foto, 
         name: "EAGLES",
         deskripsi: "PNB E-Sport Arena Gaming League Series (EAGLES) merupakan program kerja UKM Computer Club yang mewadahi minat dan bakat mahasiswa di bidang E-Sport melalui turnamen dan seminar nasional bertema E-Sport.",
         href: "/programkerja/eagles",
         singkatan: "eagles",
         periode: "Tahun 2025",
-        videoYoutube: "aAiIxXs8Wgk",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
+        videoYoutube: "HrMq26U6Erk",  // id video youtube aja ex: https://youtu.be/{{{{{{aKnbYeBE6ug}}}}}}?si=aipoH73HByviFGUA
         deskripsiDetail: `
         Seiring berkembangnya teknologi, E-Sport kini menjadi cabang olahraga berbasis teknologi yang digemari generasi muda. PNB E-Sport Arena Gaming League Series (EAGLES) hadir sebagai program kerja Unit Kegiatan Mahasiswa Computer Club untuk mewadahi minat dan bakat mahasiswa di bidang E-Sport, serta memfasilitasi para atlet E-Sport dalam ajang kompetitif yang sehat dan menantang.<br>
         <br>

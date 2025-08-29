@@ -39,8 +39,8 @@ function HomePage() {
             <div className="absolute inset-0 -z-10 bg-ornamen bg-fixed"/>
 
             <section className="relative" id="beranda">
-                    <div className="py-8 mt-16 md:mt-0 w-full md:w-screen h-full md:h-screen bg-center justify-center items-center bg-fixed overflow-hidden bg-[length:120%]" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../src/assets/img/hero/foto bersama.jpg')" }}>
-                        <div className="h-full md:h-screen flex text-white justify-center items-center">
+                    <div className="py-8 mt-16 md:mt-0 w-full md:w-screen h-full xl:h-screen bg-center justify-center items-center bg-fixed overflow-hidden bg-[length:100%] lg:bg-[length:120%] sm:bg-no-repeat" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${imagesData.foto_bersama})`, }}>
+                        <div className="h-full xl:h-screen flex text-white justify-center items-center">
 
                             {/* <div className="w-full md:w-3/4 mx-auto lg:hidden" data-aos="fade-down">
                                 <div className="w-full mb-5">
@@ -63,7 +63,7 @@ function HomePage() {
                                     <h3>Selamat Datang di Dunia Penuh Inovasi dan Kerja Sama</h3>
                                     <h3>Inspirasi Mahasiswa di Politeknik Negeri Bali</h3>
                                 </div>
-                                <a href="https://bit.ly/Pendaftaran-Anggota-UKM-2025" className="font-medium bg-secondary hover:bg-primary text-sm md:text-lg py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank' data-aos="fade-up" data-aos-delay="600">Daftar Sekarang</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoupO5ST_r2kXdSq9W7658ZO8XkFGbw1WnLydVOieJLlKiGA/viewform" className="font-medium bg-secondary hover:bg-primary text-sm md:text-lg py-2 px-3 rounded-lg text-white ease-in-out transition-all" target='_blank' data-aos="fade-up" data-aos-delay="600">Daftar Sekarang</a>
                                 <h2 className="text-white font-semibold italic text-sm md:text-2xl mt-2 lg:mt-5" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear" data-aos-delay="600">
                                 #MakeItHappen
                                 </h2>
@@ -115,7 +115,7 @@ function HomePage() {
                 </div>
                 
                 <div className="pt-16 md:pt-32 w-full flex aspect-video justify-center">
-                    <YouTube videoId={homepage.videoYoutube} className="aspect-video" opts={opts} onReady={onPlayerReady} iframeClassName="w-konten mx-auto h-full lg:rounded-2xl"/>
+                    <YouTube videoId={homepage.videoYoutube} className="aspect-video" opts={opts} onReady={onPlayerReady} iframeClassName="w-full md:w-konten mx-auto h-full lg:rounded-2xl"/>
                 </div>
 
                 {/* <div className="w-full md:w-2/3 md:mx-auto rounded-2xl px-2 py-5 border-8 border-double border-putih bg-secondary relative">
