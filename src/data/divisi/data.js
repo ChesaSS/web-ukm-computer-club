@@ -1,5 +1,5 @@
-import { faBookOpen, faFontAwesome, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
-import { faFigma, faGithub, faCss,  faHtml5, faInstagram, faPhoenixFramework } from '@fortawesome/free-brands-svg-icons';
+import { faGears, faGamepad, faFontAwesome, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { faFigma, faCss,  faHtml5, faMicrosoft, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import imagesData from "../imgImports";
 
 const divisiData = [
@@ -61,12 +61,12 @@ const divisiData = [
         ],
         itemsMateri: [
             {
-                icon: faBookOpen ,
+                icon: faMicrosoft,
                 judul: "Microsoft Office",
                 deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Microsoft Office seperti Word, Excel, PowerPoint, dan Access.",
             },
             {
-                icon: faBookOpen,
+                icon: faGoogle,
                 judul: "Google Workspace",
                 deskripsi: "Divisi office akan mengajarkan bagaimana menggunakan Google Workspace seperti Google Docs, Google Sheets, dan Google Slides.",
             },
@@ -75,7 +75,7 @@ const divisiData = [
     {
         id: 2,
         img: imagesData.cover_divisi_vcd, 
-        singkatan: "VCD",
+        singkatan: "vcd",
         divisi: "Visual Communication Design",
         deskripsi: "Divisi Visual Communication Design (VCD)  merupakan divisi yang berfokus  mempelajari design, editing foto dan membuat desain tampilan antarmuka aplikasi website yang menarik.",
         rekomendasi: `<b>
@@ -264,12 +264,12 @@ const divisiData = [
         ],
         itemsMateri: [
             {
-                icon: faBookOpen,
+                icon: faGamepad,
                 judul: "Platformer",
                 deskripsi: "Genre game dimana karakter yang dimainkan akan melewati berbagai platform, melewati berbagai rintangan dan mengumpulkan item sampai ke tujuan akhir. Contoh game platformer adalah Super Mario Bros.",
             },
             {
-                icon: faBookOpen,
+                icon: faGears,
                 judul: "Construct 3",
                 deskripsi: "Construct 3 merupakan software game engine berbasis visual yang digunakan untuk membuat game 2D tanpa perlu menulis kode secara langsung.",
             },

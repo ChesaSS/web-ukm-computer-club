@@ -15,14 +15,17 @@ function ProkerPage() {
     
     const opts= {
     playerVars: {
-        controls: 0,
+        controls: 1,
         autoplay: 0,
         iv_load_policy:3,
         playsinline:1,
         fs: 1,
         rel:0,
-        disablekb: 1,
+        disablekb: 0,
         showinfo: 0,
+        mute: 0,
+        loop: 1,
+        playlist: prokerDetail.videoYoutube,
     },
     };
 

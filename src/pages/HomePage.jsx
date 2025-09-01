@@ -31,6 +31,8 @@ function HomePage() {
         disablekb: 0,
         showinfo: 0,
         mute: 0,
+        loop: 1,
+        playlist: "kWpNlGmop0c",
     },
     };
 
